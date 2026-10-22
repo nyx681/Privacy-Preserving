@@ -38,6 +38,8 @@ MODEL_DIR="/你的模型目录/Qwen2.5-VL-7B-Instruct"
 
 ## 2. 环境
 
+新服务器从创建 Conda 环境到多卡预检的完整命令见 **[ENV_SETUP.md](ENV_SETUP.md)**。
+
 使用独立的 Python 3.10 或 3.11 环境。代码不依赖 FlashAttention、DeepSpeed、bitsandbytes 或 qwen-vl-utils，沿用原生 SDPA 和已验证的 Qwen 图像处理。
 
 若需要安装依赖，在填写 PYTHON_BIN 后手动执行：
