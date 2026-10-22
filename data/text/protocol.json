@@ -1,0 +1,26 @@
+{
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "image_sha256": "8c4ed2fcca1716b036ec8b83e3b74679938c3aa57ff54fa12c87177e42355c45",
+  "key": "星期三清晨，林舟在北门把七枚铜币放进蓝色木盒。",
+  "canvas_wh": [
+    2592,
+    1944
+  ],
+  "encoder_wh": [
+    896,
+    672
+  ],
+  "resize": "Exact 8bit Pillow bicubic forward, torch antialiased bicubic surrogate backward",
+  "steps": 2000,
+  "seed": 42,
+  "lr": 0.00392156862745098,
+  "epsilon": 0.12549019607843137,
+  "optimizer": "Adam",
+  "loss": "Mean answer-plus-EOS CE; positive .5; each of four sampled negatives .125",
+  "trainable": "Full-image RGB delta only, starting from zero; frozen MLLM; no image key, no learned basis a",
+  "prompt": "Native chat template; literal key line and natural question; no permission instructions or output-format suffix",
+  "key_equality": "Exact Unicode string including internal whitespace and punctuation; do not normalize or strip the key",
+  "selection": "Every100 steps and step0/1, use 2 historical development questions x18 conditions; maximize balanced exact-match, tie break lower weighted CE then earlier step",
+  "evaluation": "Saved PNG greedy generation; initial development, selected/final train60 + historical-test10 x18 known conditions; historical-test10 x12 unseen key edits separately",
+  "scope": "Single card and fixed key. Historical test questions were analyzed in earlier work; new key edits are held out from this run, not an exhaustive character-change guarantee."
+}

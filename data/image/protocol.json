@@ -1,0 +1,53 @@
+{
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "sources": {
+    "protected": {
+      "sha256": "8c4ed2fcca1716b036ec8b83e3b74679938c3aa57ff54fa12c87177e42355c45"
+    },
+    "key": {
+      "sha256": "34e9b51a353b2b5f506aa09f65ea2b4a6d742d8efc9710f274504a24b6565592"
+    }
+  },
+  "trainable": "Two full-resolution RGB perturbations only; model and learned basis a remain fixed",
+  "canvas_wh": [
+    2592,
+    1944
+  ],
+  "encoder_input_wh": [
+    896,
+    672
+  ],
+  "resize": "Exact saved-8bit-PNG/Pillow bicubic forward; torch antialiased bicubic surrogate gradient",
+  "steps": 2000,
+  "seed": 42,
+  "optimizer": "Adam",
+  "lr": 0.00392156862745098,
+  "epsilon": 0.12549019607843137,
+  "loss": "Answer-plus-EOS mean token CE; matched pair weight 0.5; each of five negative conditions weight 0.1",
+  "conditions": [
+    "matched_pair",
+    "normal_key",
+    "blank_key",
+    "noise_key",
+    "protected_only",
+    "key_only"
+  ],
+  "targets": {
+    "matched_pair": "920051",
+    "negative": "无法恢复"
+  },
+  "prompt": "Natural question only; no added permission or output-format instructions; native model chat template",
+  "sampling": "Shuffle all 60 questions without replacement each cycle; all six conditions per update; normal/blank/noise vary by schedule",
+  "normal_pools": {
+    "train": 16,
+    "validation": 4,
+    "test": 4
+  },
+  "checkpoint": "Every 50 steps and step1; latest optimizer state; best images by development balanced accuracy",
+  "development": "2 historical development questions, all validation normals and all 3 blank values, plus 2 noise seeds each; saved-PNG generation at step0,1,and every100",
+  "selection": "Maximize 0.5*authorized exact-match + 0.5*mean(per-negative-condition exact refusal); tie break lower development weighted CE, then earlier step",
+  "final_evaluation": "Selected and final images on all60 training questions +10 historical test questions; all4 held-out normal negatives, all3 blank values,2 fresh noise seeds; saved-PNG free generation",
+  "historical_test_scope": "Previously analyzed test questions; no new blind test claim. No test-based checkpoint selection.",
+  "leakage_metric": "Raw substring 920051; also whitespace-normalized substring; preserve complete generated answers",
+  "scope": "One student card, one initialization/seed; natural/blank/noise distractors; no other-card key-pair safety or cross-image generalization claim"
+}

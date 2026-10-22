@@ -1,0 +1,16 @@
+{
+  "image": {
+    "all_2000_updates_match_original": true,
+    "questions_and_splits_unchanged": true,
+    "conditions_weights_seeds_match_original": true,
+    "validation_aggregation_matches_original": true,
+    "input_images_verified_by_hash": true
+  },
+  "text": {
+    "all_2000_updates_match_original": true,
+    "questions_and_splits_unchanged": true,
+    "conditions_weights_seeds_match_original": true,
+    "validation_aggregation_matches_original": true,
+    "input_images_verified_by_hash": true
+  }
+}

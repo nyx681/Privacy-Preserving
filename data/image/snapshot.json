@@ -1,0 +1,14 @@
+{
+  "experiment": "image",
+  "copied_unchanged_sha256": {
+    "questions.json": "1c35d096b009a07251dcd71470d368e806e97a475c16b12c9dd7b9c6ea5a3999",
+    "schedule.jsonl": "007e3e7352c7aee025384353e2bc12d75e9ca338fe4cbe689abaecb6ac6447ae"
+  },
+  "files": {
+    "negative_pools.json": "ec43d1ec050852198fda9194a992977058d8096000227715ccc02485e803b43f",
+    "protocol.json": "42762caca1ebdb0a7a4f77bc2a04abbef99a5b2449ef28170d12ac391390d413",
+    "questions.json": "1c35d096b009a07251dcd71470d368e806e97a475c16b12c9dd7b9c6ea5a3999",
+    "schedule.jsonl": "007e3e7352c7aee025384353e2bc12d75e9ca338fe4cbe689abaecb6ac6447ae"
+  },
+  "note": "Original questions, schedules, key variants and noise seeds preserved. Only server-specific paths removed from protocol and normal-image manifest."
+}

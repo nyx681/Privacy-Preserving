@@ -1,0 +1,9 @@
+{
+  "source_parity": "passed for both original 2000-step schedules and validation weights",
+  "python_and_bash_syntax": "passed",
+  "cpu_preflight_image": "passed",
+  "cpu_preflight_text": "passed",
+  "eight_process_gloo_gradient_and_Adam": "passed",
+  "actual_H20_NCCL_Qwen_smoke": "not run locally; run_image_key.sh all and run_text_key.sh all execute it before training",
+  "training_launched": false
+}

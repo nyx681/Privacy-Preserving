@@ -1,0 +1,19 @@
+{
+  "experiment": "text",
+  "copied_unchanged_sha256": {
+    "questions.json": "0377db6f4a4c50d8552e5a917c5db959ff26195176cd002562aa954a9d13f1af",
+    "schedule.jsonl": "399c09ce9a7a85f05c2db7ad81a09f24595d44c5d0e32112c4ca6cc09abb16a2",
+    "key_conditions.json": "149a8a9910de6d080b6ed440be53ce2ebc0a6a72541863470f8466f3affda3e3",
+    "train_cases.jsonl": "f24c8809cb4a42caf87395f0d18865a04f4766ad8465377cf069f28f74bdfcee",
+    "train_cases.csv": "e7cf9668d0cd4362379627b1d314b9bee9bd6375251aa827e3dcb4e0ae86b527"
+  },
+  "files": {
+    "key_conditions.json": "149a8a9910de6d080b6ed440be53ce2ebc0a6a72541863470f8466f3affda3e3",
+    "protocol.json": "ed107d91899251db179d7df69b0c40224ffef450d214e84bfaa14a8fa3140fa3",
+    "questions.json": "0377db6f4a4c50d8552e5a917c5db959ff26195176cd002562aa954a9d13f1af",
+    "schedule.jsonl": "399c09ce9a7a85f05c2db7ad81a09f24595d44c5d0e32112c4ca6cc09abb16a2",
+    "train_cases.csv": "e7cf9668d0cd4362379627b1d314b9bee9bd6375251aa827e3dcb4e0ae86b527",
+    "train_cases.jsonl": "f24c8809cb4a42caf87395f0d18865a04f4766ad8465377cf069f28f74bdfcee"
+  },
+  "note": "Original questions, schedules, key variants and noise seeds preserved. Only server-specific paths removed from protocol and normal-image manifest."
+}

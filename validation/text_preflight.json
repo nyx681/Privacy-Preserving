@@ -1,0 +1,19 @@
+{
+  "experiment": "text",
+  "mode": "CPU check; no model weights loaded; no optimization",
+  "all_data_and_image_hashes_match": true,
+  "model_metadata_matches": true,
+  "official_processor_equivalence": true,
+  "evaluation_cases": {
+    "train": 1080,
+    "legacy_development": 36,
+    "legacy_test": 180,
+    "heldout_key_edits": 120
+  },
+  "steps": 2000,
+  "global_conditions_per_step": 5,
+  "positive_weight": 0.5,
+  "negative_total_weight": 0.5,
+  "cuda_visible_count": 1,
+  "GPU_and_NCCL_checks": "Not performed by CPU check"
+}

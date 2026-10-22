@@ -1,0 +1,21 @@
+{
+  "kind": "CPU distributed engineering test, not actual Qwen performance",
+  "backend": "gloo",
+  "command": "python -m torch.distributed.run --standalone --nnodes=1 --nproc_per_node=8 tests/test_distributed.py",
+  "checks": [
+    {
+      "experiment": "image",
+      "world_size": 8,
+      "serial_gradient_and_Adam_agree": true,
+      "idle_ranks_supported": true,
+      "evaluation_coverage_once": true
+    },
+    {
+      "experiment": "text",
+      "world_size": 8,
+      "serial_gradient_and_Adam_agree": true,
+      "idle_ranks_supported": true,
+      "evaluation_coverage_once": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# PyTorch/torchvision installed separately for the destination server CUDA runtime.
+transformers==4.57.1
+accelerate==1.14.0
+numpy==2.2.6
+Pillow==11.3.0
+safetensors==0.8.0
+tokenizers==0.22.2

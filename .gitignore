@@ -1,0 +1,35 @@
+# Local inputs and identity-bearing images
+/assets/*
+!/assets/README.md
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+
+# Models, checkpoints, archives and generated outputs
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.tar
+*.tar.gz
+*.zip
+/outputs/
+/cache/
+/tmp/
+*.log
+*.lock
+*.tmp
+
+# Local Python and credentials
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
