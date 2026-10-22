@@ -54,9 +54,10 @@ NORMAL_IMAGE_DIR="${NORMAL_IMAGE_DIR:-/实际的图片目录/normals}"
 OUTPUT_ROOT="${OUTPUT_ROOT:-/实际的结果目录/privacy_h20}"
 ```
 
-图片已复制到仓库 `assets/` 时，三个图片路径可保留原默认值。具体文件清单见
+仓库已包含 `assets/student_id.png`，自然语言密钥实验的图片路径可保留默认值。
+图片密钥实验所需的另外两项也复制到 `assets/` 后，三个图片路径均可保留默认值。具体文件清单见
 [assets/README.md](assets/README.md)。模型需复制原实验完整的 Qwen2.5-VL-7B-Instruct
-目录；仓库未包含模型权重和图片，运行时也不会联网下载模型。
+目录；仓库未包含模型权重、融合密钥图和正常负例图片，运行时也不会联网下载模型。
 保留 `GPU_LIST=0,1,2,3,4,5,6,7`、`NPROC_PER_NODE=8` 的默认设置。
 缓存和临时目录默认位于 `OUTPUT_ROOT` 下，也可在 `config.sh` 中单独修改。
 

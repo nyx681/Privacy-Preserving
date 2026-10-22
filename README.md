@@ -4,7 +4,7 @@
 
 ## 1. 修改路径
 
-克隆本仓库后，编辑 **config.sh**。GitHub 版本包含代码、固定问题与采样日程，不包含原始图片、模型权重或训练输出。请先按 [assets/README.md](assets/README.md) 从本地实验资料复制所需图片，或者在 config.sh 中指定它们的位置。必须填写：
+克隆本仓库后，编辑 **config.sh**。GitHub 版本包含代码、固定问题、采样日程和原始打码学生证 `assets/student_id.png`，不包含模型权重或训练输出。自然语言密钥实验所需图片已齐全；图片密钥实验还需按 [assets/README.md](assets/README.md) 复制融合密钥图和正常负例图片，或者在 config.sh 中指定它们的位置。必须填写：
 
 ```bash
 PYTHON_BIN="/你的环境/bin/python"
@@ -19,7 +19,7 @@ MODEL_DIR="/你的模型目录/Qwen2.5-VL-7B-Instruct"
 | --- | --- |
 | CODE_DIR | Python 代码及运行脚本所在目录 |
 | MODEL_IDENTITY_FILE | 随包提供的原模型元数据指纹 |
-| PROTECTED_IMAGE | 原始打码学生证，自行复制到 assets/student_id.png，或填写原图路径 |
+| PROTECTED_IMAGE | 原始打码学生证，仓库已包含 assets/student_id.png，可保留默认路径 |
 | IMAGE_KEY_INIT | 图片密钥初始化，自行复制到 assets/card_020_basis_080.png，或填写图片密钥初始化路径 |
 | NORMAL_IMAGE_DIR | 24 张正常负例图片目录 |
 | IMAGE_DATA_DIR / TEXT_DATA_DIR | 各自的问题、采样日程、条件和协议目录 |
@@ -30,11 +30,11 @@ MODEL_DIR="/你的模型目录/Qwen2.5-VL-7B-Instruct"
 | IMAGE_RESUME / TEXT_RESUME | 可选的本包断点路径，空值表示自动查找输出目录断点 |
 | REQUIREMENTS_FILE | Python 依赖清单 |
 
-默认图片与数据路径相对于仓库目录；数据已提交，图片需要自行复制或填写路径。输出建议放到容量充足的磁盘。Python 文件中没有旧服务器的绝对路径；内部 JSON 和结果文件名是固定文件格式，由上述目录控制位置。路径可以包含中文和空格。
+默认图片与数据路径相对于仓库目录；数据和打码学生证已提交，融合密钥图及正常负例图片需要自行复制或填写路径。输出建议放到容量充足的磁盘。Python 文件中没有旧服务器的绝对路径；内部 JSON 和结果文件名是固定文件格式，由上述目录控制位置。路径可以包含中文和空格。
 
 输入文件有哈希校验；单张输入图片可重命名或更换目录，正常图片目录内保留清单中的文件名，但不能用其他图片、重采样的数据或其他密钥冒充同一个实验。使用的是原始打码图和原始 20% 学生证 + 80% 基底融合图，**不是之前已经训练好的 protected_best/key_best**。
 
-可以先将本地迁移包中的整个 assets 目录复制到本仓库根目录；.gitignore 已排除图片，避免后续误提交。
+可以先将本地迁移包中的整个 assets 目录复制到本仓库根目录；.gitignore 仅允许纳入指定的 student_id.png，其他图片仍默认排除。
 
 ## 2. 环境
 

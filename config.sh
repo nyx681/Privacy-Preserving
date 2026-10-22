@@ -7,7 +7,7 @@ PACKAGE_ROOT="${PACKAGE_ROOT:-$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd
 PYTHON_BIN="${PYTHON_BIN:-/path/to/conda/env/bin/python}"
 MODEL_DIR="${MODEL_DIR:-/path/to/Qwen2.5-VL-7B-Instruct}"
 
-# ===== 代码、数据、初始化图片（GitHub 不含图片；自行复制到 assets 或填写路径） =====
+# ===== 代码、数据、初始化图片（已含 student_id.png；其余图片自行复制或填写路径） =====
 CODE_DIR="${CODE_DIR:-${PACKAGE_ROOT}}"
 MODEL_IDENTITY_FILE="${MODEL_IDENTITY_FILE:-${PACKAGE_ROOT}/data/model_identity.json}"
 IMAGE_DATA_DIR="${IMAGE_DATA_DIR:-${PACKAGE_ROOT}/data/image}"

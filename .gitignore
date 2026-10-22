@@ -9,6 +9,8 @@
 *.bmp
 *.tif
 *.tiff
+# Explicitly included input for the natural-language key experiment
+!/assets/student_id.png
 
 # Models, checkpoints, archives and generated outputs
 *.pt
