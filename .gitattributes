@@ -1,0 +1,6 @@
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+# Dataset snapshots are byte-hashed; never rewrite their line endings on checkout.
+data/** -text
+*.csv whitespace=cr-at-eol
