@@ -68,6 +68,14 @@ def distributed_run(a):
             locked=True
         world.barrier()
         spec,identity=prepare_spec(a)
+        # Compare independently recomputed gradients with math SDPA in the smoke
+        # test. BF16 fused CUDA backward can vary between identical evaluations
+        # (observed on torch 2.3/A6000), confounding the reduction correctness test.
+        # Training/evaluation retain their original automatic SDPA dispatch.
+        if a.mode=='smoke':
+            torch.backends.cuda.enable_flash_sdp(False)
+            torch.backends.cuda.enable_mem_efficient_sdp(False)
+            torch.backends.cuda.enable_math_sdp(True)
         framework={k:importlib.metadata.version(k) for k in ['torch','transformers','numpy','Pillow','tokenizers','accelerate','safetensors']}
         fingerprint={'experiment':a.experiment,'snapshot_sha256':sha(Path(a.data_dir)/'snapshot.json'),
             'model_metadata':identity,'code':{n:sha(CODE_ROOT/n) for n in ['run.py','engine.py','data.py','distributed.py']},
@@ -78,7 +86,8 @@ def distributed_run(a):
             save(out/'runtime_paths.json',vars(a))
             save(out/'environment.json',{'world_size':world.size,'gpu':torch.cuda.get_device_name(world.device),
                  'torch_cuda':torch.version.cuda,'framework':framework,'gradient_reduction':'SUM, not world-size average; only rank0 applies Adam',
-                 'condition_assignment':'case_index % world_size; no duplicated/dropped training cases'})
+                 'condition_assignment':'case_index % world_size; no duplicated/dropped training cases',
+                 'sdpa_backend':'math (smoke gradient comparison only)' if a.mode=='smoke' else 'automatic (original training/evaluation dispatch)'})
         world.barrier()
         done=world.broadcast_object((out/'completed.json').exists() if world.rank==0 else None)
         if done and a.mode=='train':
@@ -195,7 +204,8 @@ def distributed_run(a):
                     save(out/'smoke_passed.json',{'frozen_model':True,'saved_png_exact':True,'official_preprocessing':True,
                         'world_size':world.size,'all_global_conditions_computed_once':True,
                         'actual_model_gradient_comparison_to_serial':diagnostics,'gradient_records':all_records,
-                        'generation':outputs,'note':'Engineering check only, not an experiment result'})
+                        'generation':outputs,'sdpa_backend':'math',
+                        'note':'Engineering check only, not an experiment result; math SDPA isolates gradient reduction from fused-kernel repeatability noise. Training uses original automatic SDPA dispatch.'})
                 status('smoke_completed');world.barrier();return
             if last_step==1 or last_step%100==0:
                 save_images('latest')
