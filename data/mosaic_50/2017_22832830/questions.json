@@ -1,0 +1,1158 @@
+{
+  "train": [
+    {
+      "id": "2017_22832830-train-001",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "图中上方学生证右上角 No. 对应的编号是什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-002",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请读出上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-003",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "能告诉我上方学生证右上角 No. 对应的编号吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-004",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我想知道上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-005",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请识别上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-006",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "上方学生证右上角 No. 对应的编号具体写了什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-007",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "帮我看一下上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-008",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请提取上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-009",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "可以读一下上方学生证右上角 No. 对应的编号吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-010",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "这张图片里的上方学生证右上角 No. 对应的编号是什么内容？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-011",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请辨认上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-012",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "图片上写的上方学生证右上角 No. 对应的编号是什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-013",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请帮我确认上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-014",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "你能看出上方学生证右上角 No. 对应的编号吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-015",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "麻烦告诉我上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-016",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我需要读取上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-017",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请查看上方学生证右上角 No. 对应的编号的具体内容。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-018",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "能帮忙识别一下上方学生证右上角 No. 对应的编号吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-019",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "把上方学生证右上角 No. 对应的编号读给我看看。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-020",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "这幅图展示的上方学生证右上角 No. 对应的编号是什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-021",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我想核对一下上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-022",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请找出上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-023",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "上方学生证右上角 No. 对应的编号的内容能辨认出来吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-024",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请告诉我图片中的上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-025",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我关心的是上方学生证右上角 No. 对应的编号，能读出来吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-026",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "你能辨认出图里的上方学生证右上角 No. 对应的编号吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-027",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请从图片中读取上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-028",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "帮我提取一下上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-029",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "能否告知上方学生证右上角 No. 对应的编号的内容？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-030",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我想了解图上上方学生证右上角 No. 对应的编号的具体内容。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-031",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "这张图显示的上方学生证右上角 No. 对应的编号能读出来吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-032",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请帮忙查看上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-033",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我需要核实图片中的上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-034",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请将图里的上方学生证右上角 No. 对应的编号转录出来。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-035",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "上方学生证右上角 No. 对应的编号在图片中写的是什么内容？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-036",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "能帮我读出图上的上方学生证右上角 No. 对应的编号吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-037",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我想从这张图片里获得上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-038",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请检查一下上方学生证右上角 No. 对应的编号写了什么。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-039",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "你识别到的上方学生证右上角 No. 对应的编号是什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-040",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "麻烦看一下图中的上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-041",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我需要这张图片中上方学生证右上角 No. 对应的编号的具体内容。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-042",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请读取图片所示的上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-043",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "能为我提取图片中的上方学生证右上角 No. 对应的编号吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-044",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请辨识一下图片里的上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-045",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我想确认图片上上方学生证右上角 No. 对应的编号的内容。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-046",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "图上上方学生证右上角 No. 对应的编号怎么写的？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-047",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "帮忙读一读上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-048",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请指出图片中上方学生证右上角 No. 对应的编号的实际内容。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-049",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我需要查看这张图里的上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-050",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "可以帮我获取图中的上方学生证右上角 No. 对应的编号吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-051",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "What is the number next to No. at the upper right of the upper student card?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-052",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "Please read the number next to No. at the upper right of the upper student card.",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-053",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "Can you identify the number next to No. at the upper right of the upper student card?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-054",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "Could you tell me the number next to No. at the upper right of the upper student card?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-055",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "Please extract the number next to No. at the upper right of the upper student card from the image.",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-056",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "I would like to know the number next to No. at the upper right of the upper student card.",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-057",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "What does the image show for the number next to No. at the upper right of the upper student card?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-058",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "Help me read the number next to No. at the upper right of the upper student card.",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-059",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "Please transcribe the number next to No. at the upper right of the upper student card.",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-train-060",
+      "split": "train",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "Can you make out the number next to No. at the upper right of the upper student card in this image?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "validation": [
+    {
+      "id": "2017_22832830-validation-001",
+      "split": "validation",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请帮我核对图片所示的上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-validation-002",
+      "split": "validation",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我想请你辨认图中的上方学生证右上角 No. 对应的编号，具体是什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test": [
+    {
+      "id": "2017_22832830-test-001",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "这幅图片中，上方学生证右上角 No. 对应的编号应当读作什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test-002",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我正在核对资料，能否读取上方学生证右上角 No. 对应的编号？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test-003",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "图里的上方学生证右上角 No. 对应的编号究竟是什么内容？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test-004",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请替我辨认一下这张图上的上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test-005",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我想查看上方学生证右上角 No. 对应的编号，图中写了什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test-006",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "看这张图片，你能读懂上方学生证右上角 No. 对应的编号的内容吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test-007",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "麻烦从图里找出并读出上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test-008",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "Could you work out the number next to No. at the upper right of the upper student card from this picture?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test-009",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "I am checking the document. What is the number next to No. at the upper right of the upper student card?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test-010",
+      "split": "test",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "Would you help me transcribe the number next to No. at the upper right of the upper student card from the picture?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test_extra": [
+    {
+      "id": "2017_22832830-test_extra-001",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "帮我核实一个信息：上方学生证右上角 No. 对应的编号写的是什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test_extra-002",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我想知道的那一项是上方学生证右上角 No. 对应的编号，请帮我读一下。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test_extra-003",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "看一下图中上方学生证右上角 No. 对应的编号，你能辨认其内容吗？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test_extra-004",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "这张图里，关于上方学生证右上角 No. 对应的编号的信息是什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test_extra-005",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请帮我从图片里查到上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test_extra-006",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "如果要核对上方学生证右上角 No. 对应的编号，图里给出的内容是什么？",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test_extra-007",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "请看图片，帮忙确认其中的上方学生证右上角 No. 对应的编号。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test_extra-008",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "zh",
+      "question": "我正在查看这份材料，想了解上方学生证右上角 No. 对应的编号的内容。",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test_extra-009",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "From the pictured document, could you give me the number next to No. at the upper right of the upper student card?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_22832830-test_extra-010",
+      "split": "test_extra",
+      "category": "student_card_number",
+      "language": "en",
+      "question": "I need to verify the number next to No. at the upper right of the upper student card. What can you read there?",
+      "authorized_answer": "0891",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "0891"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ]
+}

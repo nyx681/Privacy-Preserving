@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+inputs/*
+!inputs/manifest.json
+!inputs/basis_best.png
+!inputs/normals/
+inputs/normals/*
+!inputs/normals/*.png
+!inputs/normals/*.jpg
+!inputs/normals/*.jpeg
+engineering/

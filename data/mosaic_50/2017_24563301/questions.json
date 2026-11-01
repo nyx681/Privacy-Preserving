@@ -1,0 +1,1158 @@
+{
+  "train": [
+    {
+      "id": "2017_24563301-train-001",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "图中俄勒冈州驾照左下方的完整地址是什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-002",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请读出俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-003",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "能告诉我俄勒冈州驾照左下方的完整地址吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-004",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我想知道俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-005",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请识别俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-006",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "俄勒冈州驾照左下方的完整地址具体写了什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-007",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "帮我看一下俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-008",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请提取俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-009",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "可以读一下俄勒冈州驾照左下方的完整地址吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-010",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "这张图片里的俄勒冈州驾照左下方的完整地址是什么内容？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-011",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请辨认俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-012",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "图片上写的俄勒冈州驾照左下方的完整地址是什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-013",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请帮我确认俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-014",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "你能看出俄勒冈州驾照左下方的完整地址吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-015",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "麻烦告诉我俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-016",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我需要读取俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-017",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请查看俄勒冈州驾照左下方的完整地址的具体内容。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-018",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "能帮忙识别一下俄勒冈州驾照左下方的完整地址吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-019",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "把俄勒冈州驾照左下方的完整地址读给我看看。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-020",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "这幅图展示的俄勒冈州驾照左下方的完整地址是什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-021",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我想核对一下俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-022",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请找出俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-023",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "俄勒冈州驾照左下方的完整地址的内容能辨认出来吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-024",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请告诉我图片中的俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-025",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我关心的是俄勒冈州驾照左下方的完整地址，能读出来吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-026",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "你能辨认出图里的俄勒冈州驾照左下方的完整地址吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-027",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请从图片中读取俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-028",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "帮我提取一下俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-029",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "能否告知俄勒冈州驾照左下方的完整地址的内容？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-030",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我想了解图上俄勒冈州驾照左下方的完整地址的具体内容。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-031",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "这张图显示的俄勒冈州驾照左下方的完整地址能读出来吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-032",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请帮忙查看俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-033",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我需要核实图片中的俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-034",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请将图里的俄勒冈州驾照左下方的完整地址转录出来。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-035",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "俄勒冈州驾照左下方的完整地址在图片中写的是什么内容？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-036",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "能帮我读出图上的俄勒冈州驾照左下方的完整地址吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-037",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我想从这张图片里获得俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-038",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请检查一下俄勒冈州驾照左下方的完整地址写了什么。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-039",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "你识别到的俄勒冈州驾照左下方的完整地址是什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-040",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "麻烦看一下图中的俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-041",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我需要这张图片中俄勒冈州驾照左下方的完整地址的具体内容。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-042",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请读取图片所示的俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-043",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "能为我提取图片中的俄勒冈州驾照左下方的完整地址吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-044",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请辨识一下图片里的俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-045",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我想确认图片上俄勒冈州驾照左下方的完整地址的内容。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-046",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "图上俄勒冈州驾照左下方的完整地址怎么写的？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-047",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "帮忙读一读俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-048",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "请指出图片中俄勒冈州驾照左下方的完整地址的实际内容。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-049",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "我需要查看这张图里的俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-050",
+      "split": "train",
+      "category": "address",
+      "language": "zh",
+      "question": "可以帮我获取图中的俄勒冈州驾照左下方的完整地址吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-051",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "What is the full address at the lower left of the Oregon driving licence?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-052",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "Please read the full address at the lower left of the Oregon driving licence.",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-053",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "Can you identify the full address at the lower left of the Oregon driving licence?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-054",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "Could you tell me the full address at the lower left of the Oregon driving licence?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-055",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "Please extract the full address at the lower left of the Oregon driving licence from the image.",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-056",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "I would like to know the full address at the lower left of the Oregon driving licence.",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-057",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "What does the image show for the full address at the lower left of the Oregon driving licence?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-058",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "Help me read the full address at the lower left of the Oregon driving licence.",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-059",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "Please transcribe the full address at the lower left of the Oregon driving licence.",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-train-060",
+      "split": "train",
+      "category": "address",
+      "language": "en",
+      "question": "Can you make out the full address at the lower left of the Oregon driving licence in this image?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "validation": [
+    {
+      "id": "2017_24563301-validation-001",
+      "split": "validation",
+      "category": "address",
+      "language": "zh",
+      "question": "请帮我核对图片所示的俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-validation-002",
+      "split": "validation",
+      "category": "address",
+      "language": "zh",
+      "question": "我想请你辨认图中的俄勒冈州驾照左下方的完整地址，具体是什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test": [
+    {
+      "id": "2017_24563301-test-001",
+      "split": "test",
+      "category": "address",
+      "language": "zh",
+      "question": "这幅图片中，俄勒冈州驾照左下方的完整地址应当读作什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test-002",
+      "split": "test",
+      "category": "address",
+      "language": "zh",
+      "question": "我正在核对资料，能否读取俄勒冈州驾照左下方的完整地址？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test-003",
+      "split": "test",
+      "category": "address",
+      "language": "zh",
+      "question": "图里的俄勒冈州驾照左下方的完整地址究竟是什么内容？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test-004",
+      "split": "test",
+      "category": "address",
+      "language": "zh",
+      "question": "请替我辨认一下这张图上的俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test-005",
+      "split": "test",
+      "category": "address",
+      "language": "zh",
+      "question": "我想查看俄勒冈州驾照左下方的完整地址，图中写了什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test-006",
+      "split": "test",
+      "category": "address",
+      "language": "zh",
+      "question": "看这张图片，你能读懂俄勒冈州驾照左下方的完整地址的内容吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test-007",
+      "split": "test",
+      "category": "address",
+      "language": "zh",
+      "question": "麻烦从图里找出并读出俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test-008",
+      "split": "test",
+      "category": "address",
+      "language": "en",
+      "question": "Could you work out the full address at the lower left of the Oregon driving licence from this picture?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test-009",
+      "split": "test",
+      "category": "address",
+      "language": "en",
+      "question": "I am checking the document. What is the full address at the lower left of the Oregon driving licence?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test-010",
+      "split": "test",
+      "category": "address",
+      "language": "en",
+      "question": "Would you help me transcribe the full address at the lower left of the Oregon driving licence from the picture?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test_extra": [
+    {
+      "id": "2017_24563301-test_extra-001",
+      "split": "test_extra",
+      "category": "address",
+      "language": "zh",
+      "question": "帮我核实一个信息：俄勒冈州驾照左下方的完整地址写的是什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test_extra-002",
+      "split": "test_extra",
+      "category": "address",
+      "language": "zh",
+      "question": "我想知道的那一项是俄勒冈州驾照左下方的完整地址，请帮我读一下。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test_extra-003",
+      "split": "test_extra",
+      "category": "address",
+      "language": "zh",
+      "question": "看一下图中俄勒冈州驾照左下方的完整地址，你能辨认其内容吗？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test_extra-004",
+      "split": "test_extra",
+      "category": "address",
+      "language": "zh",
+      "question": "这张图里，关于俄勒冈州驾照左下方的完整地址的信息是什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test_extra-005",
+      "split": "test_extra",
+      "category": "address",
+      "language": "zh",
+      "question": "请帮我从图片里查到俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test_extra-006",
+      "split": "test_extra",
+      "category": "address",
+      "language": "zh",
+      "question": "如果要核对俄勒冈州驾照左下方的完整地址，图里给出的内容是什么？",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test_extra-007",
+      "split": "test_extra",
+      "category": "address",
+      "language": "zh",
+      "question": "请看图片，帮忙确认其中的俄勒冈州驾照左下方的完整地址。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test_extra-008",
+      "split": "test_extra",
+      "category": "address",
+      "language": "zh",
+      "question": "我正在查看这份材料，想了解俄勒冈州驾照左下方的完整地址的内容。",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test_extra-009",
+      "split": "test_extra",
+      "category": "address",
+      "language": "en",
+      "question": "From the pictured document, could you give me the full address at the lower left of the Oregon driving licence?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_24563301-test_extra-010",
+      "split": "test_extra",
+      "category": "address",
+      "language": "en",
+      "question": "I need to verify the full address at the lower left of the Oregon driving licence. What can you read there?",
+      "authorized_answer": "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ]
+}

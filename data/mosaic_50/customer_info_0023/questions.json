@@ -1,0 +1,1158 @@
+{
+  "train": [
+    {
+      "id": "customer_info_0023-train-001",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "图中聊天界面右侧联系人资料中的电话号码是什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-002",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请读出聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-003",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "能告诉我聊天界面右侧联系人资料中的电话号码吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-004",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我想知道聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-005",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请识别聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-006",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "聊天界面右侧联系人资料中的电话号码具体写了什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-007",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "帮我看一下聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-008",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请提取聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-009",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "可以读一下聊天界面右侧联系人资料中的电话号码吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-010",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "这张图片里的聊天界面右侧联系人资料中的电话号码是什么内容？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-011",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请辨认聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-012",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "图片上写的聊天界面右侧联系人资料中的电话号码是什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-013",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请帮我确认聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-014",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "你能看出聊天界面右侧联系人资料中的电话号码吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-015",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "麻烦告诉我聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-016",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我需要读取聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-017",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请查看聊天界面右侧联系人资料中的电话号码的具体内容。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-018",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "能帮忙识别一下聊天界面右侧联系人资料中的电话号码吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-019",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "把聊天界面右侧联系人资料中的电话号码读给我看看。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-020",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "这幅图展示的聊天界面右侧联系人资料中的电话号码是什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-021",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我想核对一下聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-022",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请找出聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-023",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "聊天界面右侧联系人资料中的电话号码的内容能辨认出来吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-024",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请告诉我图片中的聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-025",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我关心的是聊天界面右侧联系人资料中的电话号码，能读出来吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-026",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "你能辨认出图里的聊天界面右侧联系人资料中的电话号码吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-027",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请从图片中读取聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-028",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "帮我提取一下聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-029",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "能否告知聊天界面右侧联系人资料中的电话号码的内容？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-030",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我想了解图上聊天界面右侧联系人资料中的电话号码的具体内容。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-031",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "这张图显示的聊天界面右侧联系人资料中的电话号码能读出来吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-032",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请帮忙查看聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-033",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我需要核实图片中的聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-034",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请将图里的聊天界面右侧联系人资料中的电话号码转录出来。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-035",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "聊天界面右侧联系人资料中的电话号码在图片中写的是什么内容？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-036",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "能帮我读出图上的聊天界面右侧联系人资料中的电话号码吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-037",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我想从这张图片里获得聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-038",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请检查一下聊天界面右侧联系人资料中的电话号码写了什么。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-039",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "你识别到的聊天界面右侧联系人资料中的电话号码是什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-040",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "麻烦看一下图中的聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-041",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我需要这张图片中聊天界面右侧联系人资料中的电话号码的具体内容。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-042",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请读取图片所示的聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-043",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "能为我提取图片中的聊天界面右侧联系人资料中的电话号码吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-044",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请辨识一下图片里的聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-045",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我想确认图片上聊天界面右侧联系人资料中的电话号码的内容。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-046",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "图上聊天界面右侧联系人资料中的电话号码怎么写的？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-047",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "帮忙读一读聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-048",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "请指出图片中聊天界面右侧联系人资料中的电话号码的实际内容。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-049",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "我需要查看这张图里的聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-050",
+      "split": "train",
+      "category": "phone",
+      "language": "zh",
+      "question": "可以帮我获取图中的聊天界面右侧联系人资料中的电话号码吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-051",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "What is the phone number in the contact details on the right of the chat interface?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-052",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "Please read the phone number in the contact details on the right of the chat interface.",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-053",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "Can you identify the phone number in the contact details on the right of the chat interface?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-054",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "Could you tell me the phone number in the contact details on the right of the chat interface?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-055",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "Please extract the phone number in the contact details on the right of the chat interface from the image.",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-056",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "I would like to know the phone number in the contact details on the right of the chat interface.",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-057",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "What does the image show for the phone number in the contact details on the right of the chat interface?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-058",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "Help me read the phone number in the contact details on the right of the chat interface.",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-059",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "Please transcribe the phone number in the contact details on the right of the chat interface.",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-train-060",
+      "split": "train",
+      "category": "phone",
+      "language": "en",
+      "question": "Can you make out the phone number in the contact details on the right of the chat interface in this image?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "validation": [
+    {
+      "id": "customer_info_0023-validation-001",
+      "split": "validation",
+      "category": "phone",
+      "language": "zh",
+      "question": "请帮我核对图片所示的聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-validation-002",
+      "split": "validation",
+      "category": "phone",
+      "language": "zh",
+      "question": "我想请你辨认图中的聊天界面右侧联系人资料中的电话号码，具体是什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test": [
+    {
+      "id": "customer_info_0023-test-001",
+      "split": "test",
+      "category": "phone",
+      "language": "zh",
+      "question": "这幅图片中，聊天界面右侧联系人资料中的电话号码应当读作什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test-002",
+      "split": "test",
+      "category": "phone",
+      "language": "zh",
+      "question": "我正在核对资料，能否读取聊天界面右侧联系人资料中的电话号码？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test-003",
+      "split": "test",
+      "category": "phone",
+      "language": "zh",
+      "question": "图里的聊天界面右侧联系人资料中的电话号码究竟是什么内容？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test-004",
+      "split": "test",
+      "category": "phone",
+      "language": "zh",
+      "question": "请替我辨认一下这张图上的聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test-005",
+      "split": "test",
+      "category": "phone",
+      "language": "zh",
+      "question": "我想查看聊天界面右侧联系人资料中的电话号码，图中写了什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test-006",
+      "split": "test",
+      "category": "phone",
+      "language": "zh",
+      "question": "看这张图片，你能读懂聊天界面右侧联系人资料中的电话号码的内容吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test-007",
+      "split": "test",
+      "category": "phone",
+      "language": "zh",
+      "question": "麻烦从图里找出并读出聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test-008",
+      "split": "test",
+      "category": "phone",
+      "language": "en",
+      "question": "Could you work out the phone number in the contact details on the right of the chat interface from this picture?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test-009",
+      "split": "test",
+      "category": "phone",
+      "language": "en",
+      "question": "I am checking the document. What is the phone number in the contact details on the right of the chat interface?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test-010",
+      "split": "test",
+      "category": "phone",
+      "language": "en",
+      "question": "Would you help me transcribe the phone number in the contact details on the right of the chat interface from the picture?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test_extra": [
+    {
+      "id": "customer_info_0023-test_extra-001",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "zh",
+      "question": "帮我核实一个信息：聊天界面右侧联系人资料中的电话号码写的是什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test_extra-002",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "zh",
+      "question": "我想知道的那一项是聊天界面右侧联系人资料中的电话号码，请帮我读一下。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test_extra-003",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "zh",
+      "question": "看一下图中聊天界面右侧联系人资料中的电话号码，你能辨认其内容吗？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test_extra-004",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "zh",
+      "question": "这张图里，关于聊天界面右侧联系人资料中的电话号码的信息是什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test_extra-005",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "zh",
+      "question": "请帮我从图片里查到聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test_extra-006",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "zh",
+      "question": "如果要核对聊天界面右侧联系人资料中的电话号码，图里给出的内容是什么？",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test_extra-007",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "zh",
+      "question": "请看图片，帮忙确认其中的聊天界面右侧联系人资料中的电话号码。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test_extra-008",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "zh",
+      "question": "我正在查看这份材料，想了解聊天界面右侧联系人资料中的电话号码的内容。",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test_extra-009",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "en",
+      "question": "From the pictured document, could you give me the phone number in the contact details on the right of the chat interface?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "customer_info_0023-test_extra-010",
+      "split": "test_extra",
+      "category": "phone",
+      "language": "en",
+      "question": "I need to verify the phone number in the contact details on the right of the chat interface. What can you read there?",
+      "authorized_answer": "+1 650-392-4683",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "+1 650-392-4683"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ]
+}

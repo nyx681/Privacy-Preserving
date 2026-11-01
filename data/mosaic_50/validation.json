@@ -1,0 +1,18 @@
+{
+  "images": 50,
+  "total_questions": 4100,
+  "ready_images": 50,
+  "needs_review_images": 0,
+  "ready_questions": 4100,
+  "counts_per_image": {
+    "train": 60,
+    "validation": 2,
+    "test": 10,
+    "test_extra": 10
+  },
+  "per_image_split_exact_disjoint": true,
+  "all_ids_unique": true,
+  "answers_joined_by_image_id": true,
+  "source_and_crop_hashes_verified": true,
+  "unknown_answers_excluded": true
+}

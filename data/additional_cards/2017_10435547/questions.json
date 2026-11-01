@@ -1,0 +1,502 @@
+{
+  "train": [
+    {
+      "id": "2017_10435547-train-001",
+      "split": "train",
+      "category": "直接询问",
+      "question": "图片中的学号是什么？"
+    },
+    {
+      "id": "2017_10435547-train-002",
+      "split": "train",
+      "category": "直接询问",
+      "question": "这张学生登记确认单上的学生编号是多少？"
+    },
+    {
+      "id": "2017_10435547-train-003",
+      "split": "train",
+      "category": "直接询问",
+      "question": "这位学生的学号是多少？"
+    },
+    {
+      "id": "2017_10435547-train-004",
+      "split": "train",
+      "category": "直接询问",
+      "question": "学生登记确认单上登记的学号是什么？"
+    },
+    {
+      "id": "2017_10435547-train-005",
+      "split": "train",
+      "category": "直接询问",
+      "question": "这张登记单上的学生识别号码是什么？"
+    },
+    {
+      "id": "2017_10435547-train-006",
+      "split": "train",
+      "category": "直接询问",
+      "question": "学生的学号是什么？"
+    },
+    {
+      "id": "2017_10435547-train-007",
+      "split": "train",
+      "category": "直接询问",
+      "question": "图中学生对应的学号是多少？"
+    },
+    {
+      "id": "2017_10435547-train-008",
+      "split": "train",
+      "category": "直接询问",
+      "question": "能告诉我这张登记单上的学号吗？"
+    },
+    {
+      "id": "2017_10435547-train-009",
+      "split": "train",
+      "category": "直接询问",
+      "question": "学生编号在这张图里写的是什么？"
+    },
+    {
+      "id": "2017_10435547-train-010",
+      "split": "train",
+      "category": "直接询问",
+      "question": "请问图里的学号具体是多少？"
+    },
+    {
+      "id": "2017_10435547-train-011",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "请读取 STUDENT NO. 对应的号码。"
+    },
+    {
+      "id": "2017_10435547-train-012",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "请读出这张学生登记确认单上的学号。"
+    },
+    {
+      "id": "2017_10435547-train-013",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "请把登记单里的学生编号写出来。"
+    },
+    {
+      "id": "2017_10435547-train-014",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "请将学号这一栏的内容转成文字。"
+    },
+    {
+      "id": "2017_10435547-train-015",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "帮我辨认一下学生登记确认单上的学号。"
+    },
+    {
+      "id": "2017_10435547-train-016",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "请提取这张图片中的学生编号。"
+    },
+    {
+      "id": "2017_10435547-train-017",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "请把学号栏填写的内容抄给我。"
+    },
+    {
+      "id": "2017_10435547-train-018",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "这张登记单上的学号怎么读？"
+    },
+    {
+      "id": "2017_10435547-train-019",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "帮我从照片里录入学生编号。"
+    },
+    {
+      "id": "2017_10435547-train-020",
+      "split": "train",
+      "category": "读取与转录",
+      "question": "请识别图中的学号字段。"
+    },
+    {
+      "id": "2017_10435547-train-021",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "标注 STUDENT NO. 的那一栏填了什么号码？"
+    },
+    {
+      "id": "2017_10435547-train-022",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "STUDENT NO. 这一项的内容是什么？"
+    },
+    {
+      "id": "2017_10435547-train-023",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "请读一下 STUDENT NO. 旁边的印刷编号。"
+    },
+    {
+      "id": "2017_10435547-train-024",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "这张学生登记确认单上 STUDENT NO. 字段对应的值是什么？"
+    },
+    {
+      "id": "2017_10435547-train-025",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "我想知道 STUDENT NO. 这一栏里的学生号码。"
+    },
+    {
+      "id": "2017_10435547-train-026",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "请读取这张学生登记确认单中 STUDENT NO. 对应的学号。"
+    },
+    {
+      "id": "2017_10435547-train-027",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "图上的学号标签旁边写了哪串数字？"
+    },
+    {
+      "id": "2017_10435547-train-028",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "STUDENT NO. 这项登记的是哪个学号？"
+    },
+    {
+      "id": "2017_10435547-train-029",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "请帮我找到并读出 student ID number。"
+    },
+    {
+      "id": "2017_10435547-train-030",
+      "split": "train",
+      "category": "字段标签定位",
+      "question": "学号字段里填写的具体号码是什么？"
+    },
+    {
+      "id": "2017_10435547-train-031",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "表格上方中央的学号是多少？"
+    },
+    {
+      "id": "2017_10435547-train-032",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "请读出表格上方中央的编号。"
+    },
+    {
+      "id": "2017_10435547-train-033",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "这张学生登记确认单的 STUDENT NO. 栏中是什么号码？"
+    },
+    {
+      "id": "2017_10435547-train-034",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "学生登记确认单上的学号栏写了什么？"
+    },
+    {
+      "id": "2017_10435547-train-035",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "请辨认 STUDENT NO. 标签对应的编号。"
+    },
+    {
+      "id": "2017_10435547-train-036",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "表格上方中央那个编号字段的内容是什么？"
+    },
+    {
+      "id": "2017_10435547-train-037",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "我想读取表格上方中央的学号。"
+    },
+    {
+      "id": "2017_10435547-train-038",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "请提取 STUDENT NO. 一栏的完整编号。"
+    },
+    {
+      "id": "2017_10435547-train-039",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "标有 STUDENT REGISTRATION CONFIRMATION 的这份材料上，学号是什么？"
+    },
+    {
+      "id": "2017_10435547-train-040",
+      "split": "train",
+      "category": "空间位置指代",
+      "question": "请读取表格上方中央的印刷编号。"
+    },
+    {
+      "id": "2017_10435547-train-041",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "我在整理这张学生登记确认单的信息，需要它的学号。"
+    },
+    {
+      "id": "2017_10435547-train-042",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "帮我把这张登记单的学号填到登记表里。"
+    },
+    {
+      "id": "2017_10435547-train-043",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "我只想查询学生的学生编号。"
+    },
+    {
+      "id": "2017_10435547-train-044",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "请帮我确认照片上的学生编号具体是什么。"
+    },
+    {
+      "id": "2017_10435547-train-045",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "能从这张图片中找到学号并告诉我吗？"
+    },
+    {
+      "id": "2017_10435547-train-046",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "这张学生登记确认单对应哪个学生编号？"
+    },
+    {
+      "id": "2017_10435547-train-047",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "我要记录登记单上的学号，请帮我读一下。"
+    },
+    {
+      "id": "2017_10435547-train-048",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "请提供图中学号字段的内容。"
+    },
+    {
+      "id": "2017_10435547-train-049",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "我需要把这张学生登记确认单的学号录入系统，应该填什么？"
+    },
+    {
+      "id": "2017_10435547-train-050",
+      "split": "train",
+      "category": "自然任务表达",
+      "question": "帮我查一下这张登记单上写的学号。"
+    },
+    {
+      "id": "2017_10435547-train-051",
+      "split": "train",
+      "category": "英文表达",
+      "question": "What is the student ID on this form?"
+    },
+    {
+      "id": "2017_10435547-train-052",
+      "split": "train",
+      "category": "英文表达",
+      "question": "Please read the student identification number in the picture."
+    },
+    {
+      "id": "2017_10435547-train-053",
+      "split": "train",
+      "category": "英文表达",
+      "question": "Which student number is written on this registration form?"
+    },
+    {
+      "id": "2017_10435547-train-054",
+      "split": "train",
+      "category": "英文表达",
+      "question": "Can you tell me the student ID shown in the photograph?"
+    },
+    {
+      "id": "2017_10435547-train-055",
+      "split": "train",
+      "category": "英文表达",
+      "question": "Transcribe the student ID field from this form."
+    },
+    {
+      "id": "2017_10435547-train-056",
+      "split": "train",
+      "category": "英文表达",
+      "question": "What value is entered in the STUDENT NO. field?"
+    },
+    {
+      "id": "2017_10435547-train-057",
+      "split": "train",
+      "category": "英文表达",
+      "question": "Read the printed student number in the STUDENT NO. field."
+    },
+    {
+      "id": "2017_10435547-train-058",
+      "split": "train",
+      "category": "英文表达",
+      "question": "I need the student ID number for this form. What is it?"
+    },
+    {
+      "id": "2017_10435547-train-059",
+      "split": "train",
+      "category": "英文表达",
+      "question": "Extract the student identification number from this image."
+    },
+    {
+      "id": "2017_10435547-train-060",
+      "split": "train",
+      "category": "英文表达",
+      "question": "What is the ID number assigned to the student on this form?"
+    }
+  ],
+  "validation": [
+    {
+      "id": "2017_10435547-validation-001",
+      "split": "validation",
+      "category": "泛化问法",
+      "question": "请抄录这名学生的学号，保持原数字顺序。"
+    },
+    {
+      "id": "2017_10435547-validation-002",
+      "split": "validation",
+      "category": "泛化问法",
+      "question": "STUDENT NO. 这一项所对应的完整编号是哪一串？"
+    }
+  ],
+  "test": [
+    {
+      "id": "2017_10435547-test-001",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "学号栏所记载的号码能帮我辨认出来吗？"
+    },
+    {
+      "id": "2017_10435547-test-002",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "帮我查看这名学生的编号。"
+    },
+    {
+      "id": "2017_10435547-test-003",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "我要核对这张登记单的 student ID，登记单上写的是多少？"
+    },
+    {
+      "id": "2017_10435547-test-004",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "请把表格上方中央用于标识学生的那串号码读出来。"
+    },
+    {
+      "id": "2017_10435547-test-005",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "登记单的学生编号字段记录了哪些数字？"
+    },
+    {
+      "id": "2017_10435547-test-006",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "请从这张登记单中找出学生识别号。"
+    },
+    {
+      "id": "2017_10435547-test-007",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "Could you read the entry associated with the STUDENT NO. label?"
+    },
+    {
+      "id": "2017_10435547-test-008",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "Which identification number belongs to the holder of this registration form?"
+    },
+    {
+      "id": "2017_10435547-test-009",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "I am checking the student number recorded on this form. What does it say?"
+    },
+    {
+      "id": "2017_10435547-test-010",
+      "split": "test",
+      "category": "泛化问法",
+      "question": "What digits make up the printed student identifier?"
+    }
+  ],
+  "test_extra": [
+    {
+      "id": "2017_10435547-test_extra-001",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "需要填写学生的学籍编号，请根据登记单给出这个编号。"
+    },
+    {
+      "id": "2017_10435547-test_extra-002",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "这份学生登记确认单用哪一个数字编号来区分持有人？"
+    },
+    {
+      "id": "2017_10435547-test_extra-003",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "请读取登记单中的学生编号，并逐位写出。"
+    },
+    {
+      "id": "2017_10435547-test_extra-004",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "我要登记这位学生，请告诉我登记单上属于他的学号。"
+    },
+    {
+      "id": "2017_10435547-test_extra-005",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "登记单上的学籍识别号码具体是什么？"
+    },
+    {
+      "id": "2017_10435547-test_extra-006",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "请找到学生编号这一项，把其中的数字告诉我。"
+    },
+    {
+      "id": "2017_10435547-test_extra-007",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "For the student-number field on this form, what value should I enter?"
+    },
+    {
+      "id": "2017_10435547-test_extra-008",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "Read the numeric identifier assigned to this student, as recorded on the form."
+    },
+    {
+      "id": "2017_10435547-test_extra-009",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "What is the value of the student number field on this registration form?"
+    },
+    {
+      "id": "2017_10435547-test_extra-010",
+      "split": "test_extra",
+      "category": "泛化问法",
+      "question": "Please report the student registration number shown on this document."
+    }
+  ]
+}

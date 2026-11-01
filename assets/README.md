@@ -1,5 +1,7 @@
 # 本地图片准备
 
+当前批次的 50 张图片位于 `mosaic_50/`，已统一命名为 `1.png` 至 `50.png`。编号与原文件名、来源、问答的对应关系见 [image_sources.csv](mosaic_50/image_sources.csv)。根目录中的其他图片属于旧实验，保留原名。
+
 GitHub 仓库已包含自然语言密钥实验所需的 `student_id.png`。图片密钥实验另外需要从原本地实验资料或迁移压缩包复制融合密钥图和正常负例照片：
 
 - `student_id.png`（已包含）：原始打码学生证，2592×1944；对应原来的“学号1.png”。
@@ -10,4 +12,4 @@ GitHub 仓库已包含自然语言密钥实验所需的 `student_id.png`。图�
 
 请使用初始化图片，而不是已训练的 protected_best.png 或 key_best.png。输入图像哈希写在两个实验的 protocol.json 中，正常照片哈希写在 negative_pools.json 中，用于保持实验内容一致。
 
-模型目录也需要自行准备，设置 MODEL_DIR。除明确纳入的 `assets/student_id.png` 外，其他图片、权重、断点与输出仍由 .gitignore 排除。
+模型目录也需要自行准备，设置 MODEL_DIR。仓库同时纳入三张旧实验打码图、本批 50 张编号打码图，以及 `pipeline_h100/inputs/` 中的视觉基底和 24 张正常负例图；原图复核裁剪、权重、断点与输出仍由 .gitignore 排除。

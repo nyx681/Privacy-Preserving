@@ -1,0 +1,5 @@
+{
+  "basis_sha256": "ea27d188cd85632c343df260e07354ab0981a485c0c704dc6a032f6366b8e83b",
+  "normal_count": 24,
+  "note": "Pretrained model weights are external. Source identity-photo originals are not required by the runtime."
+}

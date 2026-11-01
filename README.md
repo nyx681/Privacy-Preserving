@@ -1,5 +1,9 @@
 # Privacy-Preserving：图片密钥与自然语言密钥实验
 
+当前 **50 张图片完整 pipeline 的 4 卡 H100 运行入口**见 [pipeline_h100/README.md](pipeline_h100/README.md)：一图一卡、指定 GPU、自动续训，四张卡可同时跑四张图片。服务器路径集中在 `pipeline_h100/config.sh`。
+
+GitHub 已包含 H100 流程所需代码、50 张编号打码图片、4,100 条问答、视觉基底和 24 张正常负例图；克隆后修改 `pipeline_h100/config.sh` 中的 `PYTHON_BIN`、`MODEL_DIR` 和 `OUTPUT_ROOT`。模型权重、训练输出、原图复核裁剪和本地压缩包不纳入仓库。图片编号与原来源的对应表见 [image_sources.csv](assets/mosaic_50/image_sources.csv)。以下根目录脚本说明用于早期单图迁移实验。
+
 这是两个已有实验的迁移版本。问题、数据划分、2000 步采样顺序、随机种子、CE 权重、图片尺寸、扰动约束及检查点选择规则沿用原配置。模型保持冻结，没有 LoRA、模型微调或新增模型模块。
 
 ## 1. 修改路径

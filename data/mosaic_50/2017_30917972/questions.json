@@ -1,0 +1,1158 @@
+{
+  "train": [
+    {
+      "id": "2017_30917972-train-001",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "图中文章正文下方 Event Secretary 前面的署名是什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-002",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请读出文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-003",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "能告诉我文章正文下方 Event Secretary 前面的署名吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-004",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我想知道文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-005",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请识别文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-006",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "文章正文下方 Event Secretary 前面的署名具体写了什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-007",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "帮我看一下文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-008",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请提取文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-009",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "可以读一下文章正文下方 Event Secretary 前面的署名吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-010",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "这张图片里的文章正文下方 Event Secretary 前面的署名是什么内容？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-011",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请辨认文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-012",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "图片上写的文章正文下方 Event Secretary 前面的署名是什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-013",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请帮我确认文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-014",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "你能看出文章正文下方 Event Secretary 前面的署名吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-015",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "麻烦告诉我文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-016",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我需要读取文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-017",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请查看文章正文下方 Event Secretary 前面的署名的具体内容。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-018",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "能帮忙识别一下文章正文下方 Event Secretary 前面的署名吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-019",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "把文章正文下方 Event Secretary 前面的署名读给我看看。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-020",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "这幅图展示的文章正文下方 Event Secretary 前面的署名是什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-021",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我想核对一下文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-022",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请找出文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-023",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "文章正文下方 Event Secretary 前面的署名的内容能辨认出来吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-024",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请告诉我图片中的文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-025",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我关心的是文章正文下方 Event Secretary 前面的署名，能读出来吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-026",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "你能辨认出图里的文章正文下方 Event Secretary 前面的署名吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-027",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请从图片中读取文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-028",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "帮我提取一下文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-029",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "能否告知文章正文下方 Event Secretary 前面的署名的内容？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-030",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我想了解图上文章正文下方 Event Secretary 前面的署名的具体内容。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-031",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "这张图显示的文章正文下方 Event Secretary 前面的署名能读出来吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-032",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请帮忙查看文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-033",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我需要核实图片中的文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-034",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请将图里的文章正文下方 Event Secretary 前面的署名转录出来。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-035",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "文章正文下方 Event Secretary 前面的署名在图片中写的是什么内容？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-036",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "能帮我读出图上的文章正文下方 Event Secretary 前面的署名吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-037",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我想从这张图片里获得文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-038",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请检查一下文章正文下方 Event Secretary 前面的署名写了什么。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-039",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "你识别到的文章正文下方 Event Secretary 前面的署名是什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-040",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "麻烦看一下图中的文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-041",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我需要这张图片中文章正文下方 Event Secretary 前面的署名的具体内容。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-042",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请读取图片所示的文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-043",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "能为我提取图片中的文章正文下方 Event Secretary 前面的署名吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-044",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请辨识一下图片里的文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-045",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我想确认图片上文章正文下方 Event Secretary 前面的署名的内容。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-046",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "图上文章正文下方 Event Secretary 前面的署名怎么写的？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-047",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "帮忙读一读文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-048",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "请指出图片中文章正文下方 Event Secretary 前面的署名的实际内容。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-049",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "我需要查看这张图里的文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-050",
+      "split": "train",
+      "category": "name",
+      "language": "zh",
+      "question": "可以帮我获取图中的文章正文下方 Event Secretary 前面的署名吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-051",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "What is the name immediately before Event Secretary below the article?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-052",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "Please read the name immediately before Event Secretary below the article.",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-053",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "Can you identify the name immediately before Event Secretary below the article?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-054",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "Could you tell me the name immediately before Event Secretary below the article?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-055",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "Please extract the name immediately before Event Secretary below the article from the image.",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-056",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "I would like to know the name immediately before Event Secretary below the article.",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-057",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "What does the image show for the name immediately before Event Secretary below the article?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-058",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "Help me read the name immediately before Event Secretary below the article.",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-059",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "Please transcribe the name immediately before Event Secretary below the article.",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-train-060",
+      "split": "train",
+      "category": "name",
+      "language": "en",
+      "question": "Can you make out the name immediately before Event Secretary below the article in this image?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "validation": [
+    {
+      "id": "2017_30917972-validation-001",
+      "split": "validation",
+      "category": "name",
+      "language": "zh",
+      "question": "请帮我核对图片所示的文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-validation-002",
+      "split": "validation",
+      "category": "name",
+      "language": "zh",
+      "question": "我想请你辨认图中的文章正文下方 Event Secretary 前面的署名，具体是什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test": [
+    {
+      "id": "2017_30917972-test-001",
+      "split": "test",
+      "category": "name",
+      "language": "zh",
+      "question": "这幅图片中，文章正文下方 Event Secretary 前面的署名应当读作什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test-002",
+      "split": "test",
+      "category": "name",
+      "language": "zh",
+      "question": "我正在核对资料，能否读取文章正文下方 Event Secretary 前面的署名？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test-003",
+      "split": "test",
+      "category": "name",
+      "language": "zh",
+      "question": "图里的文章正文下方 Event Secretary 前面的署名究竟是什么内容？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test-004",
+      "split": "test",
+      "category": "name",
+      "language": "zh",
+      "question": "请替我辨认一下这张图上的文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test-005",
+      "split": "test",
+      "category": "name",
+      "language": "zh",
+      "question": "我想查看文章正文下方 Event Secretary 前面的署名，图中写了什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test-006",
+      "split": "test",
+      "category": "name",
+      "language": "zh",
+      "question": "看这张图片，你能读懂文章正文下方 Event Secretary 前面的署名的内容吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test-007",
+      "split": "test",
+      "category": "name",
+      "language": "zh",
+      "question": "麻烦从图里找出并读出文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test-008",
+      "split": "test",
+      "category": "name",
+      "language": "en",
+      "question": "Could you work out the name immediately before Event Secretary below the article from this picture?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test-009",
+      "split": "test",
+      "category": "name",
+      "language": "en",
+      "question": "I am checking the document. What is the name immediately before Event Secretary below the article?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test-010",
+      "split": "test",
+      "category": "name",
+      "language": "en",
+      "question": "Would you help me transcribe the name immediately before Event Secretary below the article from the picture?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test_extra": [
+    {
+      "id": "2017_30917972-test_extra-001",
+      "split": "test_extra",
+      "category": "name",
+      "language": "zh",
+      "question": "帮我核实一个信息：文章正文下方 Event Secretary 前面的署名写的是什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test_extra-002",
+      "split": "test_extra",
+      "category": "name",
+      "language": "zh",
+      "question": "我想知道的那一项是文章正文下方 Event Secretary 前面的署名，请帮我读一下。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test_extra-003",
+      "split": "test_extra",
+      "category": "name",
+      "language": "zh",
+      "question": "看一下图中文章正文下方 Event Secretary 前面的署名，你能辨认其内容吗？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test_extra-004",
+      "split": "test_extra",
+      "category": "name",
+      "language": "zh",
+      "question": "这张图里，关于文章正文下方 Event Secretary 前面的署名的信息是什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test_extra-005",
+      "split": "test_extra",
+      "category": "name",
+      "language": "zh",
+      "question": "请帮我从图片里查到文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test_extra-006",
+      "split": "test_extra",
+      "category": "name",
+      "language": "zh",
+      "question": "如果要核对文章正文下方 Event Secretary 前面的署名，图里给出的内容是什么？",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test_extra-007",
+      "split": "test_extra",
+      "category": "name",
+      "language": "zh",
+      "question": "请看图片，帮忙确认其中的文章正文下方 Event Secretary 前面的署名。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test_extra-008",
+      "split": "test_extra",
+      "category": "name",
+      "language": "zh",
+      "question": "我正在查看这份材料，想了解文章正文下方 Event Secretary 前面的署名的内容。",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test_extra-009",
+      "split": "test_extra",
+      "category": "name",
+      "language": "en",
+      "question": "From the pictured document, could you give me the name immediately before Event Secretary below the article?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_30917972-test_extra-010",
+      "split": "test_extra",
+      "category": "name",
+      "language": "en",
+      "question": "I need to verify the name immediately before Event Secretary below the article. What can you read there?",
+      "authorized_answer": "Ron Brown",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "Ron Brown"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ]
+}

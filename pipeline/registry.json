@@ -1,0 +1,20 @@
+{
+  "2017_10435547_mosaic.png": {
+    "id": "2017_10435547", "image": "assets/2017_10435547_mosaic.png",
+    "target": "935 68 4500", "field": "STUDENT NO.",
+    "questions": "data/additional_cards/2017_10435547/questions.json",
+    "verification": "Manually read the original source crop; spaces preserved in strict target; digit-normalized leakage also checked."
+  },
+  "2017_39004420_mosaic.png": {
+    "id": "2017_39004420", "image": "assets/2017_39004420_mosaic.png",
+    "target": "007841-745", "field": "Student No.",
+    "questions": "data/additional_cards/2017_39004420/questions.json",
+    "verification": "Manually read the original source crop; leading zeros and hyphen preserved."
+  },
+  "2017_32685533_mosaic.png": {
+    "id": "2017_32685533", "image": "assets/2017_32685533_mosaic.png",
+    "target": "073330", "field": "Nº HG",
+    "questions": "data/additional_cards/2017_32685533/questions.json",
+    "verification": "Manually read the original source crop; leading zero preserved; this is a card number."
+  }
+}

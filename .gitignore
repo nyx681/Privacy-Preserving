@@ -35,3 +35,22 @@ venv/
 .env
 .env.*
 .DS_Store
+
+# Publish only the prepared, masked image datasets and required visual inputs.
+!/assets/2017_10435547_mosaic.png
+!/assets/2017_32685533_mosaic.png
+!/assets/2017_39004420_mosaic.png
+!/assets/mosaic_50/
+/assets/mosaic_50/*
+!/assets/mosaic_50/[0-9].png
+!/assets/mosaic_50/[0-9][0-9].png
+!/assets/mosaic_50/README.md
+!/assets/mosaic_50/image_sources.csv
+!/assets/mosaic_50/manifest.json
+!/assets/mosaic_50/manifest.csv
+!/assets/mosaic_50/exclusions.json
+
+# Original-source review crops and excluded examples are local preparation data.
+/data/mosaic_50/answer_review/
+/data/mosaic_50/excluded/
+/dist/

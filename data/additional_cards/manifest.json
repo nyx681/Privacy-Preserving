@@ -1,0 +1,53 @@
+{
+  "images": [
+    {
+      "image_id": "2017_10435547",
+      "image": "assets/2017_10435547_mosaic.png",
+      "target_field": "学号",
+      "printed_label": "STUDENT NO.",
+      "field_location": "表格上方中央",
+      "image_sha256": "0f094f126f23c0968dfd862daf3e5374f7d7696cdc2059f58d8270f57c1b9aa4",
+      "counts": {
+        "train": 60,
+        "validation": 2,
+        "test": 10,
+        "test_extra": 10
+      }
+    },
+    {
+      "image_id": "2017_39004420",
+      "image": "assets/2017_39004420_mosaic.png",
+      "target_field": "学号",
+      "printed_label": "Student No.",
+      "field_location": "人像右侧的姓名下方",
+      "image_sha256": "d2d39953d78c04bca7749104f4d3249e98e563ecf0a5e27aa094547f580704f6",
+      "counts": {
+        "train": 60,
+        "validation": 2,
+        "test": 10,
+        "test_extra": 10
+      }
+    },
+    {
+      "image_id": "2017_32685533",
+      "image": "assets/2017_32685533_mosaic.png",
+      "target_field": "证件编号",
+      "printed_label": "Nº HG",
+      "field_location": "证件右上方",
+      "image_sha256": "840615d67078399c524a61b0ecdb4c69584fb6cde053e572a60fd2d875abffab",
+      "counts": {
+        "train": 60,
+        "validation": 2,
+        "test": 10,
+        "test_extra": 10
+      }
+    }
+  ],
+  "question_source": "/home/zhangchenhao/project/MLLM_safety/隐私保护/universal_visual_basis/text_key_substitution/dynamic_key_ce_2000/data/questions.json",
+  "notes": [
+    "Question-only data; keys and answers are not included.",
+    "Test splits are exact-string-disjoint from train within each image.",
+    "Adapted from existing templates: NOT independent cross-image linguistic holdout.",
+    "No training launched; existing single-image datasets unchanged."
+  ]
+}

@@ -1,0 +1,1158 @@
+{
+  "train": [
+    {
+      "id": "2017_43638726-train-001",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "图中上方深色名片 Email 字段中的电子邮箱是什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-002",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请读出上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-003",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "能告诉我上方深色名片 Email 字段中的电子邮箱吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-004",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我想知道上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-005",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请识别上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-006",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "上方深色名片 Email 字段中的电子邮箱具体写了什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-007",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "帮我看一下上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-008",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请提取上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-009",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "可以读一下上方深色名片 Email 字段中的电子邮箱吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-010",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "这张图片里的上方深色名片 Email 字段中的电子邮箱是什么内容？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-011",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请辨认上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-012",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "图片上写的上方深色名片 Email 字段中的电子邮箱是什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-013",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请帮我确认上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-014",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "你能看出上方深色名片 Email 字段中的电子邮箱吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-015",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "麻烦告诉我上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-016",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我需要读取上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-017",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请查看上方深色名片 Email 字段中的电子邮箱的具体内容。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-018",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "能帮忙识别一下上方深色名片 Email 字段中的电子邮箱吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-019",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "把上方深色名片 Email 字段中的电子邮箱读给我看看。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-020",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "这幅图展示的上方深色名片 Email 字段中的电子邮箱是什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-021",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我想核对一下上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-022",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请找出上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-023",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "上方深色名片 Email 字段中的电子邮箱的内容能辨认出来吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-024",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请告诉我图片中的上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-025",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我关心的是上方深色名片 Email 字段中的电子邮箱，能读出来吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-026",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "你能辨认出图里的上方深色名片 Email 字段中的电子邮箱吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-027",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请从图片中读取上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-028",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "帮我提取一下上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-029",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "能否告知上方深色名片 Email 字段中的电子邮箱的内容？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-030",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我想了解图上上方深色名片 Email 字段中的电子邮箱的具体内容。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-031",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "这张图显示的上方深色名片 Email 字段中的电子邮箱能读出来吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-032",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请帮忙查看上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-033",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我需要核实图片中的上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-034",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请将图里的上方深色名片 Email 字段中的电子邮箱转录出来。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-035",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "上方深色名片 Email 字段中的电子邮箱在图片中写的是什么内容？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-036",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "能帮我读出图上的上方深色名片 Email 字段中的电子邮箱吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-037",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我想从这张图片里获得上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-038",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请检查一下上方深色名片 Email 字段中的电子邮箱写了什么。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-039",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "你识别到的上方深色名片 Email 字段中的电子邮箱是什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-040",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "麻烦看一下图中的上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-041",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我需要这张图片中上方深色名片 Email 字段中的电子邮箱的具体内容。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-042",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请读取图片所示的上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-043",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "能为我提取图片中的上方深色名片 Email 字段中的电子邮箱吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-044",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请辨识一下图片里的上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-045",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我想确认图片上上方深色名片 Email 字段中的电子邮箱的内容。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-046",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "图上上方深色名片 Email 字段中的电子邮箱怎么写的？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-047",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "帮忙读一读上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-048",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "请指出图片中上方深色名片 Email 字段中的电子邮箱的实际内容。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-049",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "我需要查看这张图里的上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-050",
+      "split": "train",
+      "category": "email",
+      "language": "zh",
+      "question": "可以帮我获取图中的上方深色名片 Email 字段中的电子邮箱吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-051",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "What is the email address in the Email field on the upper dark business card?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-052",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "Please read the email address in the Email field on the upper dark business card.",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-053",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "Can you identify the email address in the Email field on the upper dark business card?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-054",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "Could you tell me the email address in the Email field on the upper dark business card?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-055",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "Please extract the email address in the Email field on the upper dark business card from the image.",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-056",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "I would like to know the email address in the Email field on the upper dark business card.",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-057",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "What does the image show for the email address in the Email field on the upper dark business card?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-058",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "Help me read the email address in the Email field on the upper dark business card.",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-059",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "Please transcribe the email address in the Email field on the upper dark business card.",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-train-060",
+      "split": "train",
+      "category": "email",
+      "language": "en",
+      "question": "Can you make out the email address in the Email field on the upper dark business card in this image?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "validation": [
+    {
+      "id": "2017_43638726-validation-001",
+      "split": "validation",
+      "category": "email",
+      "language": "zh",
+      "question": "请帮我核对图片所示的上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-validation-002",
+      "split": "validation",
+      "category": "email",
+      "language": "zh",
+      "question": "我想请你辨认图中的上方深色名片 Email 字段中的电子邮箱，具体是什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test": [
+    {
+      "id": "2017_43638726-test-001",
+      "split": "test",
+      "category": "email",
+      "language": "zh",
+      "question": "这幅图片中，上方深色名片 Email 字段中的电子邮箱应当读作什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test-002",
+      "split": "test",
+      "category": "email",
+      "language": "zh",
+      "question": "我正在核对资料，能否读取上方深色名片 Email 字段中的电子邮箱？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test-003",
+      "split": "test",
+      "category": "email",
+      "language": "zh",
+      "question": "图里的上方深色名片 Email 字段中的电子邮箱究竟是什么内容？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test-004",
+      "split": "test",
+      "category": "email",
+      "language": "zh",
+      "question": "请替我辨认一下这张图上的上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test-005",
+      "split": "test",
+      "category": "email",
+      "language": "zh",
+      "question": "我想查看上方深色名片 Email 字段中的电子邮箱，图中写了什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test-006",
+      "split": "test",
+      "category": "email",
+      "language": "zh",
+      "question": "看这张图片，你能读懂上方深色名片 Email 字段中的电子邮箱的内容吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test-007",
+      "split": "test",
+      "category": "email",
+      "language": "zh",
+      "question": "麻烦从图里找出并读出上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test-008",
+      "split": "test",
+      "category": "email",
+      "language": "en",
+      "question": "Could you work out the email address in the Email field on the upper dark business card from this picture?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test-009",
+      "split": "test",
+      "category": "email",
+      "language": "en",
+      "question": "I am checking the document. What is the email address in the Email field on the upper dark business card?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test-010",
+      "split": "test",
+      "category": "email",
+      "language": "en",
+      "question": "Would you help me transcribe the email address in the Email field on the upper dark business card from the picture?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ],
+  "test_extra": [
+    {
+      "id": "2017_43638726-test_extra-001",
+      "split": "test_extra",
+      "category": "email",
+      "language": "zh",
+      "question": "帮我核实一个信息：上方深色名片 Email 字段中的电子邮箱写的是什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test_extra-002",
+      "split": "test_extra",
+      "category": "email",
+      "language": "zh",
+      "question": "我想知道的那一项是上方深色名片 Email 字段中的电子邮箱，请帮我读一下。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test_extra-003",
+      "split": "test_extra",
+      "category": "email",
+      "language": "zh",
+      "question": "看一下图中上方深色名片 Email 字段中的电子邮箱，你能辨认其内容吗？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test_extra-004",
+      "split": "test_extra",
+      "category": "email",
+      "language": "zh",
+      "question": "这张图里，关于上方深色名片 Email 字段中的电子邮箱的信息是什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test_extra-005",
+      "split": "test_extra",
+      "category": "email",
+      "language": "zh",
+      "question": "请帮我从图片里查到上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test_extra-006",
+      "split": "test_extra",
+      "category": "email",
+      "language": "zh",
+      "question": "如果要核对上方深色名片 Email 字段中的电子邮箱，图里给出的内容是什么？",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test_extra-007",
+      "split": "test_extra",
+      "category": "email",
+      "language": "zh",
+      "question": "请看图片，帮忙确认其中的上方深色名片 Email 字段中的电子邮箱。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test_extra-008",
+      "split": "test_extra",
+      "category": "email",
+      "language": "zh",
+      "question": "我正在查看这份材料，想了解上方深色名片 Email 字段中的电子邮箱的内容。",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test_extra-009",
+      "split": "test_extra",
+      "category": "email",
+      "language": "en",
+      "question": "From the pictured document, could you give me the email address in the Email field on the upper dark business card?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    },
+    {
+      "id": "2017_43638726-test_extra-010",
+      "split": "test_extra",
+      "category": "email",
+      "language": "en",
+      "question": "I need to verify the email address in the Email field on the upper dark business card. What can you read there?",
+      "authorized_answer": "LeandroH@LeandroHDuran.com",
+      "unauthorized_answer": "无法恢复",
+      "answer_components": [
+        "LeandroH@LeandroHDuran.com"
+      ],
+      "answer_status": "verified_from_source",
+      "train_ready": true
+    }
+  ]
+}

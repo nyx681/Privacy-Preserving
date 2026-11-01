@@ -1,0 +1,50 @@
+{
+  "version": "h100-single-image-v1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "execution": "one image per GPU; four independent concurrent jobs",
+  "images": 50,
+  "questions": 4100,
+  "validation": {
+    "unit_tests_passed": 7,
+    "exact_optimizer_and_rng_resume_test": "tiny fake Engine, engineering only",
+    "all_50_inputs": true,
+    "native_processor_cpu_preflight": [
+      "customer_info_0020",
+      "2017_11174421",
+      "customer_info_0025"
+    ],
+    "h100_training_run": false,
+    "real_model_gpu_smoke": false,
+    "detached_cpu_launcher": true
+  },
+  "local_software": {
+    "torch": "2.3.0",
+    "torchvision": "0.18.0",
+    "transformers": "4.57.1",
+    "accelerate": "1.14.0",
+    "numpy": "2.2.6",
+    "Pillow": "11.3.0"
+  },
+  "code_sha256": {
+    "common.py": "82df168acaca678259671b58f840bc662d41140c0019e6aa38242b6437ad8b62",
+    "search.py": "d0a4240d543b6d8006c3f32bfdb6930f7a50c834aac62e7b60e88a12beafe7f9",
+    "train.py": "7d1ed85a64421ea4b6d20fee2ae1a06de3969eb95171fdedf37f25be0673e248",
+    "report.py": "5939ee788c4c1a0bee95483686f7cd5762ff3941e41f4f3429a0585d573cffe5",
+    "easy_keys.py": "e877ca0d92eee757cecdc46bac3e5e60ca536f90b85077726b7d69beb80a05b3",
+    "evaluate_easy.py": "ba7f8b422ad4269b1f645bdc6daaa94e7929f284a5735b73fa5c23bb0c8134a7",
+    "build_bundle.py": "1469cc7e072bb06b6fac5e5f4c63731a2689e97a1c83c5edc9aec3332a20dafd",
+    "config.sh": "18568ed69639388ed63c9a82ac39e6e1859b5668431632c067332d016bc6aac0",
+    "run_one.sh": "8716d468aeec60ae5ec41564863925893cc6884db4b208ae3e05f27f4abd4dd3",
+    "run_pipeline.py": "52bc6d912d1d29a12df3c98a63843c0a7642648aced8ffc1110eb715346b17d1",
+    "setup_env.sh": "bb72977e36f82f324b2065b6b2800274f81a8808e3a110982548cb3f00b31b89",
+    "runtime.py": "9a3f68a5fb9287d88004601d3fdbdc9ad97e276f64c42b3a22e3d5ad7afce866",
+    "commands_50.txt": "b493579c9e9934bf9548e681c6fe4a2cefb4fa0c92d8fe6f622ee2af7bc1d357",
+    "launch_one.py": "a677159bb90d81af112ead07b31b5f892ba7d12d2c5a66a9155d4a7ef8fdcb77",
+    "train_extended.py": "a0420b79e000dea15228acf62253094e0a7db64f02ddd39e8db1d5be195dc615",
+    "engine.py": "bef7d3d5ffad746bc0a1bf90c089c7f16e3e0cde83a6601707b940f7840329cb",
+    "data.py": "b4012b7795dee60003e04f8747fbadd2278d06d529c23b6b5207c8d16cd00f0d",
+    "README.md": "37521ea24cd4baa33edcda4ca485f6f62492579f2d93b31f887d8de1720a0651"
+  },
+  "dataset_manifest_sha256": "7c2024eed134e0cbf6ff1b7fd777683ace0db039dda1b45f88da90cd5a9a8f35",
+  "image_naming": "1.png through 50.png; original IDs retained; assets/mosaic_50/image_sources.csv records provenance"
+}
