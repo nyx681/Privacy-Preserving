@@ -28,5 +28,6 @@
     "VANZIJTVELD/ROBERTJANMR"
   ],
   "answer_notes": "保留原始旅客姓名栏的紧凑写法及MR后缀，不凭格式推测或补写空格。",
-  "answers": "data/mosaic_50/customer_info_0029/answer.json"
+  "answers": "data/mosaic_50/customer_info_0029/answer.json",
+  "question_language": "en"
 }

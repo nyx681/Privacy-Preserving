@@ -30,7 +30,8 @@
         "Anne Villeneuve"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_10003252/answer.json"
+      "answers": "data/mosaic_50/2017_10003252/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_16257673",
@@ -68,7 +69,8 @@
         "Ron GAVISH"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_16257673/answer.json"
+      "answers": "data/mosaic_50/2017_16257673/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_29150539",
@@ -100,7 +102,8 @@
         "Dan Taylor"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_29150539/answer.json"
+      "answers": "data/mosaic_50/2017_29150539/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_30917972",
@@ -132,7 +135,8 @@
         "Ron Brown"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_30917972/answer.json"
+      "answers": "data/mosaic_50/2017_30917972/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_32110621",
@@ -170,7 +174,8 @@
         "Steve T. Jurvetson"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_32110621/answer.json"
+      "answers": "data/mosaic_50/2017_32110621/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_33590114",
@@ -202,7 +207,8 @@
         "JIM MORAN"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_33590114/answer.json"
+      "answers": "data/mosaic_50/2017_33590114/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_36962399",
@@ -234,7 +240,8 @@
         "STÉPHANE GABIOUD"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_36962399/answer.json"
+      "answers": "data/mosaic_50/2017_36962399/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_11174421",
@@ -266,7 +273,8 @@
         "16 JLN SRI PETALING 15\nBDR BARU SERI PETALING"
       ],
       "answer_notes": "原图签名覆盖地址末尾的部分字符；问答范围限定为清楚可读的街道门牌及住宅区两行，不要求邮编、城市或联邦直辖区。",
-      "answers": "data/mosaic_50/2017_11174421/answer.json"
+      "answers": "data/mosaic_50/2017_11174421/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_24563301",
@@ -298,7 +306,8 @@
         "2763 NW DAYLILY AVE\nCORVALLIS, OR 97330"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_24563301/answer.json"
+      "answers": "data/mosaic_50/2017_24563301/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_25945100",
@@ -330,7 +339,8 @@
         "3603 #B NEDERLAND AVE\nNEDERLAND TX 77627"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_25945100/answer.json"
+      "answers": "data/mosaic_50/2017_25945100/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_39629525",
@@ -362,7 +372,8 @@
         "SNEAD DR\nN FORT MYERS FL 33903-2626"
       ],
       "answer_notes": "原图叠加标记影响门牌号辨认；问答范围限定为街道名称、城市、州、邮编，不要求门牌号。",
-      "answers": "data/mosaic_50/2017_39629525/answer.json"
+      "answers": "data/mosaic_50/2017_39629525/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_47863095",
@@ -394,7 +405,8 @@
         "4571 STAGECOACH TRL\nCOPLEY, OH 44321"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_47863095/answer.json"
+      "answers": "data/mosaic_50/2017_47863095/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_85772622",
@@ -426,7 +438,8 @@
         "Bahnhofstr. 17\n48499 Salzbergen"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_85772622/answer.json"
+      "answers": "data/mosaic_50/2017_85772622/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_85769314",
@@ -458,7 +471,8 @@
         "41 W 83RD ST APT 9A\nNEW YORK NY 10024"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_85769314/answer.json"
+      "answers": "data/mosaic_50/2017_85769314/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_86339097",
@@ -490,7 +504,8 @@
         "140 PACIFIC AV.\nLA HABRA, CA 90631"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_86339097/answer.json"
+      "answers": "data/mosaic_50/2017_86339097/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_24705160",
@@ -522,7 +537,8 @@
         "4342 5629 9329 2885"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_24705160/answer.json"
+      "answers": "data/mosaic_50/2017_24705160/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_27791663",
@@ -554,7 +570,8 @@
         "5168 7202 9353 6777"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_27791663/answer.json"
+      "answers": "data/mosaic_50/2017_27791663/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_34319895",
@@ -586,7 +603,8 @@
         "4820 9902 6013 6884"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_34319895/answer.json"
+      "answers": "data/mosaic_50/2017_34319895/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_38450702",
@@ -618,7 +636,8 @@
         "3738 910987 52001"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_38450702/answer.json"
+      "answers": "data/mosaic_50/2017_38450702/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_46199627",
@@ -650,7 +669,8 @@
         "4060 3203 5134 0691"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_46199627/answer.json"
+      "answers": "data/mosaic_50/2017_46199627/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_48934169",
@@ -682,7 +702,8 @@
         "5179 6810 1538 2003"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_48934169/answer.json"
+      "answers": "data/mosaic_50/2017_48934169/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_76379883",
@@ -714,7 +735,8 @@
         "5205 9321 1304 7456"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_76379883/answer.json"
+      "answers": "data/mosaic_50/2017_76379883/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_10762860",
@@ -746,7 +768,8 @@
         "00000000"
       ],
       "answer_notes": "示例样式编号；仅转录可数清的八个数字0，不判断或恢复模糊前缀符号；数字字符串保留前导零。",
-      "answers": "data/mosaic_50/2017_10762860/answer.json"
+      "answers": "data/mosaic_50/2017_10762860/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_22832830",
@@ -778,7 +801,8 @@
         "0891"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_22832830/answer.json"
+      "answers": "data/mosaic_50/2017_22832830/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_34021811",
@@ -810,7 +834,8 @@
         "A0000001"
       ],
       "answer_notes": "示例卡片；字母A后六个0及数字1，保留前导零，不据此认定是真实学号。",
-      "answers": "data/mosaic_50/2017_34021811/answer.json"
+      "answers": "data/mosaic_50/2017_34021811/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_13683184",
@@ -842,7 +867,8 @@
         "wwdc08-noc@apple.com"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_13683184/answer.json"
+      "answers": "data/mosaic_50/2017_13683184/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_39981612",
@@ -874,7 +900,8 @@
         "suerabeaux@gmail.com"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_39981612/answer.json"
+      "answers": "data/mosaic_50/2017_39981612/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_43638726",
@@ -912,7 +939,8 @@
         "LeandroH@LeandroHDuran.com"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_43638726/answer.json"
+      "answers": "data/mosaic_50/2017_43638726/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_61545447",
@@ -944,7 +972,8 @@
         "alert@alert.ema.dc.gov"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_61545447/answer.json"
+      "answers": "data/mosaic_50/2017_61545447/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_72894411",
@@ -976,7 +1005,8 @@
         "rtwdave@gmail.com"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_72894411/answer.json"
+      "answers": "data/mosaic_50/2017_72894411/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_77842342",
@@ -1008,7 +1038,8 @@
         "manfred@erjak.at"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_77842342/answer.json"
+      "answers": "data/mosaic_50/2017_77842342/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_87967436",
@@ -1040,7 +1071,8 @@
         "musicality@mvd-plan.de"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_87967436/answer.json"
+      "answers": "data/mosaic_50/2017_87967436/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "2017_89883581",
@@ -1072,7 +1104,8 @@
         "roblesloro@gmail.com"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/2017_89883581/answer.json"
+      "answers": "data/mosaic_50/2017_89883581/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0000",
@@ -1105,7 +1138,8 @@
         "010-56532540"
       ],
       "answer_notes": "第一条记录有两个号码。原图未分别标明电话与传真归属，按从上到下顺序列出，不人为分配。",
-      "answers": "data/mosaic_50/customer_info_0000/answer.json"
+      "answers": "data/mosaic_50/customer_info_0000/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0001",
@@ -1137,7 +1171,8 @@
         "1370077873@qq.com"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0001/answer.json"
+      "answers": "data/mosaic_50/customer_info_0001/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0002",
@@ -1169,7 +1204,8 @@
         "jdis39483@gmail.com"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0002/answer.json"
+      "answers": "data/mosaic_50/customer_info_0002/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0003",
@@ -1201,7 +1237,8 @@
         "2314589"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0003/answer.json"
+      "answers": "data/mosaic_50/customer_info_0003/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0004",
@@ -1233,7 +1270,8 @@
         "fred@apexmanufacturing.com"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0004/answer.json"
+      "answers": "data/mosaic_50/customer_info_0004/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0005",
@@ -1265,7 +1303,8 @@
         "vitali@globalroom.com"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0005/answer.json"
+      "answers": "data/mosaic_50/customer_info_0005/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0007",
@@ -1297,7 +1336,8 @@
         "Gareth Jenkinson"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0007/answer.json"
+      "answers": "data/mosaic_50/customer_info_0007/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0010",
@@ -1329,7 +1369,8 @@
         "15373830173"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0010/answer.json"
+      "answers": "data/mosaic_50/customer_info_0010/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0012",
@@ -1361,7 +1402,8 @@
         "18865867195"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0012/answer.json"
+      "answers": "data/mosaic_50/customer_info_0012/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0015",
@@ -1393,7 +1435,8 @@
         "Layne Wall"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0015/answer.json"
+      "answers": "data/mosaic_50/customer_info_0015/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0017",
@@ -1425,7 +1468,8 @@
         "14061101214175"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0017/answer.json"
+      "answers": "data/mosaic_50/customer_info_0017/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0018",
@@ -1457,7 +1501,8 @@
         "林亿成"
       ],
       "answer_notes": "第一条交易记录的名称为林亿成，后缀***512是原图已掩码的关联账号片段，不属于姓名，不补全其隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0018/answer.json"
+      "answers": "data/mosaic_50/customer_info_0018/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0019",
@@ -1489,7 +1534,8 @@
         "董利长"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0019/answer.json"
+      "answers": "data/mosaic_50/customer_info_0019/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0023",
@@ -1521,7 +1567,8 @@
         "+1 650-392-4683"
       ],
       "answer_notes": "按原图可读文字转录；仅统一文本行分隔，不推断隐藏内容。",
-      "answers": "data/mosaic_50/customer_info_0023/answer.json"
+      "answers": "data/mosaic_50/customer_info_0023/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0025",
@@ -1560,7 +1607,8 @@
         "ALAN JAMES WALLER"
       ],
       "answer_notes": "两份账单显示相同的两位账户持有人；只记录两个人名，不包含MR称谓、TRADING AS或商号。",
-      "answers": "data/mosaic_50/customer_info_0025/answer.json"
+      "answers": "data/mosaic_50/customer_info_0025/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0029",
@@ -1592,7 +1640,8 @@
         "VANZIJTVELD/ROBERTJANMR"
       ],
       "answer_notes": "保留原始旅客姓名栏的紧凑写法及MR后缀，不凭格式推测或补写空格。",
-      "answers": "data/mosaic_50/customer_info_0029/answer.json"
+      "answers": "data/mosaic_50/customer_info_0029/answer.json",
+      "question_language": "en"
     },
     {
       "image_id": "customer_info_0020",
@@ -1630,7 +1679,8 @@
         "YaNan Yang"
       ],
       "answer_notes": "第一条人物搜索结果的人名；同一行简介重复出现，相应两个位置均打码。按图片中大小写转录。",
-      "answers": "data/mosaic_50/customer_info_0020/answer.json"
+      "answers": "data/mosaic_50/customer_info_0020/answer.json",
+      "question_language": "en"
     }
   ],
   "total_images": 50,
@@ -1647,5 +1697,6 @@
   "needs_review_images": 0,
   "ready_questions": 4100,
   "needs_review_questions": 0,
-  "answers": "data/mosaic_50/answers.json"
+  "answers": "data/mosaic_50/answers.json",
+  "question_language": "en"
 }

@@ -35,5 +35,6 @@
     "ALAN JAMES WALLER"
   ],
   "answer_notes": "两份账单显示相同的两位账户持有人；只记录两个人名，不包含MR称谓、TRADING AS或商号。",
-  "answers": "data/mosaic_50/customer_info_0025/answer.json"
+  "answers": "data/mosaic_50/customer_info_0025/answer.json",
+  "question_language": "en"
 }

@@ -1,6 +1,7 @@
 """Generate natural questions for each manually mosaicked field (no keys or answers)."""
 from pathlib import Path
 import csv,hashlib,json
+from english_templates import TRAIN_TRANSLATED, VALIDATION_TRANSLATED, TEST_TRANSLATED, EXTRA_TRANSLATED
 ROOT=Path(__file__).resolve().parent
 REPO=ROOT.parents[1]
 SOURCE=REPO/'assets/mosaic_50/manifest.json'
@@ -92,10 +93,10 @@ def main():
  allrows=[];metadata=[]
  for r in records:
   cid=r['id'];focus,en=FOCUS[cid];groups={}
-  definitions={'train':[(q,focus,'zh') for q in TRAIN_ZH]+[(q,en,'en') for q in TRAIN_EN],
-   'validation':[(q,focus,'zh') for q in VALIDATION],
-   'test':[(q,focus,'zh') for q in TEST_ZH]+[(q,en,'en') for q in TEST_EN],
-   'test_extra':[(q,focus,'zh') for q in EXTRA_ZH]+[(q,en,'en') for q in EXTRA_EN]}
+  definitions={'train':[(q,en,'en') for q in TRAIN_TRANSLATED+TRAIN_EN],
+   'validation':[(q,en,'en') for q in VALIDATION_TRANSLATED],
+   'test':[(q,en,'en') for q in TEST_TRANSLATED+TEST_EN],
+   'test_extra':[(q,en,'en') for q in EXTRA_TRANSLATED+EXTRA_EN]}
   for split,templates in definitions.items():
    groups[split]=[dict(id=f'{cid}-{split}-{i+1:03d}',split=split,category=r['field'],language=lang,question=q.format(f=f)) for i,(q,f,lang) in enumerate(templates)]
   flat=[q for rows in groups.values() for q in rows]

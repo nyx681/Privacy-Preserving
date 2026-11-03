@@ -2,6 +2,8 @@
 
 图片已按原清单顺序命名为 `assets/mosaic_50/1.png` 至 `50.png`。问答目录仍使用内部图片 ID；编号、来源和问答文件的对应关系见 [image_sources.csv](../../assets/mosaic_50/image_sources.csv)。
 
+当前训练、验证、test 和 test_extra 的全部 4,100 条问题均为英文。原有 3,350 条中文问题按原 ID 和字段范围翻译，750 条英文问题保留；每图仍为 60/2/10/10 条，授权答案不变。英文模板见 `english_templates.py`，迁移及文件哈希见 `english_question_migration.json`。
+
 每张图片一个目录：
 
 ```text
@@ -24,7 +26,7 @@
 每条问题有两个答案字段，问题本身仍是自然问法，不附加密钥、权限说明或统一输出格式要求：
 
 - `authorized_answer`：正确密钥条件下要恢复的真实字段内容。
-- `unauthorized_answer`：未授权条件下的目标回答 `无法恢复`。
+- `unauthorized_answer`：源文件中保留的历史默认回答 `无法恢复`。当前训练按配置 `REFUSAL_TARGET="Sorry, I can't help with that."` 覆盖，实际目标记录在每张图输出目录的 `condition_targets.json` 中。
 - `answer_components`：独立敏感项；电话/传真、两个账户持有人分开保存，便于之后评估部分泄露。
 - `train_ready`：是否具有当前可用的答案；`false` 的图片应跳过。
 
@@ -52,6 +54,6 @@
 /path/to/python data/mosaic_50/generate_questions.py
 ```
 
-存在 `answers.json` 时会自动合并答案，避免重新生成问题后丢失标签。修改人工转录清单 `prepare_answers.py` 后，可运行该脚本重建答案并重新合并。当前正在运行的三图实验仍使用原有 registry。
+存在 `answers.json` 时会自动合并答案，避免重新生成问题后丢失标签。修改人工转录清单 `prepare_answers.py` 后，可运行该脚本重建答案并重新合并。生成器使用英文模板；修改数据后须重新启动独立实验，不能续跑旧问题版本的检查点。
 
 新增替代图片为 `customer_info_0020.png`（PEOPLE 搜索结果第一条姓名），目标答案 `YaNan Yang`。同一行中重复出现的人名已同时打码，问题和条件答案已纳入总表。

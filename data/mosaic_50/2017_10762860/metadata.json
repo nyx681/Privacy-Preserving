@@ -28,5 +28,6 @@
     "00000000"
   ],
   "answer_notes": "示例样式编号；仅转录可数清的八个数字0，不判断或恢复模糊前缀符号；数字字符串保留前导零。",
-  "answers": "data/mosaic_50/2017_10762860/answer.json"
+  "answers": "data/mosaic_50/2017_10762860/answer.json",
+  "question_language": "en"
 }

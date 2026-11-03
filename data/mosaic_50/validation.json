@@ -14,5 +14,9 @@
   "all_ids_unique": true,
   "answers_joined_by_image_id": true,
   "source_and_crop_hashes_verified": true,
-  "unknown_answers_excluded": true
+  "unknown_answers_excluded": true,
+  "question_language": "en",
+  "all_questions_english": true,
+  "translated_questions": 3350,
+  "question_ids_splits_and_answer_labels_preserved": true
 }

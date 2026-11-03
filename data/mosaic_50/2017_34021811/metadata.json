@@ -28,5 +28,6 @@
     "A0000001"
   ],
   "answer_notes": "示例卡片；字母A后六个0及数字1，保留前导零，不据此认定是真实学号。",
-  "answers": "data/mosaic_50/2017_34021811/answer.json"
+  "answers": "data/mosaic_50/2017_34021811/answer.json",
+  "question_language": "en"
 }

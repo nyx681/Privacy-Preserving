@@ -29,5 +29,6 @@
     "010-56532540"
   ],
   "answer_notes": "第一条记录有两个号码。原图未分别标明电话与传真归属，按从上到下顺序列出，不人为分配。",
-  "answers": "data/mosaic_50/customer_info_0000/answer.json"
+  "answers": "data/mosaic_50/customer_info_0000/answer.json",
+  "question_language": "en"
 }

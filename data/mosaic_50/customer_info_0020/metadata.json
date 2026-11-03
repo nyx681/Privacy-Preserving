@@ -34,5 +34,6 @@
     "YaNan Yang"
   ],
   "answer_notes": "第一条人物搜索结果的人名；同一行简介重复出现，相应两个位置均打码。按图片中大小写转录。",
-  "answers": "data/mosaic_50/customer_info_0020/answer.json"
+  "answers": "data/mosaic_50/customer_info_0020/answer.json",
+  "question_language": "en"
 }

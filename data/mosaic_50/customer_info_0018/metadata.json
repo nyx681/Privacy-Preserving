@@ -28,5 +28,6 @@
     "林亿成"
   ],
   "answer_notes": "第一条交易记录的名称为林亿成，后缀***512是原图已掩码的关联账号片段，不属于姓名，不补全其隐藏内容。",
-  "answers": "data/mosaic_50/customer_info_0018/answer.json"
+  "answers": "data/mosaic_50/customer_info_0018/answer.json",
+  "question_language": "en"
 }

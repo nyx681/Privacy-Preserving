@@ -28,5 +28,6 @@
     "SNEAD DR\nN FORT MYERS FL 33903-2626"
   ],
   "answer_notes": "原图叠加标记影响门牌号辨认；问答范围限定为街道名称、城市、州、邮编，不要求门牌号。",
-  "answers": "data/mosaic_50/2017_39629525/answer.json"
+  "answers": "data/mosaic_50/2017_39629525/answer.json",
+  "question_language": "en"
 }

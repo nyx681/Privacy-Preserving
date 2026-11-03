@@ -1,0 +1,210 @@
+{
+  "question_language": "en",
+  "images": 50,
+  "questions": 4100,
+  "translated_questions": 3350,
+  "original_english_questions_preserved": 750,
+  "source_archive": "/mnt/dfq/mi-runs/privacy-preserving/mosaic_50_llava_mixed_questions_interrupted_20261103/mixed_question_dataset",
+  "files": [
+    {
+      "image_id": "2017_10003252",
+      "questions_sha256": "9dd94a67d844c330a680d418fb66fe79f07f3f80d3c12d4b4a219de4f624ee0c"
+    },
+    {
+      "image_id": "2017_16257673",
+      "questions_sha256": "d952d54b453e63665efbaa2fdcf4dca87860adc70b6040b05899256fb7de3c19"
+    },
+    {
+      "image_id": "2017_29150539",
+      "questions_sha256": "2f4586e21c0ff25aabbb942c916b449a40ab8e20b9fd7e8818796824066a8c8f"
+    },
+    {
+      "image_id": "2017_30917972",
+      "questions_sha256": "461f0a3b377ceba75a040a71339efe2ba04f5ac9feb609d844dd342bc0b26205"
+    },
+    {
+      "image_id": "2017_32110621",
+      "questions_sha256": "f0435a3afea03fc1795fc3d99b3726cd18908f74506754d95935eb34a73c9c7e"
+    },
+    {
+      "image_id": "2017_33590114",
+      "questions_sha256": "b90dab4223c58a8957dbb2a649e0ae17f4d6fffbfcd62ecf250a09b48bf61e21"
+    },
+    {
+      "image_id": "2017_36962399",
+      "questions_sha256": "59dac250c909053ea46e5a9a6bb209c7d0ed9717608b8c79905f7ec1208afcf8"
+    },
+    {
+      "image_id": "2017_11174421",
+      "questions_sha256": "03b8b124f905302fd8b5b67c4c1ac35433626445041183c4bfab383805d03780"
+    },
+    {
+      "image_id": "2017_24563301",
+      "questions_sha256": "c0a872fa0b48bde0c35e317b30b3012626b1f907b00a7364c7256bc35c30ad10"
+    },
+    {
+      "image_id": "2017_25945100",
+      "questions_sha256": "7bcc8236d913ce67b07593166574e8d2daed6e30db6c45d6154d929ffd2bf0c4"
+    },
+    {
+      "image_id": "2017_39629525",
+      "questions_sha256": "d68b51f1c57b6eaedc5d81ccb71a6324edfaf3b7a69e76b89220ad034049873e"
+    },
+    {
+      "image_id": "2017_47863095",
+      "questions_sha256": "5a98dd61dfe6ebcab8b175208fcc047c5b6895090b5644a8ed75fe9ea9de4631"
+    },
+    {
+      "image_id": "2017_85772622",
+      "questions_sha256": "d89cf760a6328f7c2c09cf38513511987826901185142ae92953d7b3399f9c73"
+    },
+    {
+      "image_id": "2017_85769314",
+      "questions_sha256": "76aec72ae5d30e64cf96a4c94abfd142cb396571be07e97e53529550a3d650da"
+    },
+    {
+      "image_id": "2017_86339097",
+      "questions_sha256": "16757ce50610da5af0c347d2d7f1538d63c0c9a7efb698160f7d80470806ed5d"
+    },
+    {
+      "image_id": "2017_24705160",
+      "questions_sha256": "b3c6248067bb7392119113dfd80be75a77d7b82d47c869c85132283e534180d4"
+    },
+    {
+      "image_id": "2017_27791663",
+      "questions_sha256": "5d643d0f0f35fec6372711f6786469c64d4ee5cee390f992587977d88d089635"
+    },
+    {
+      "image_id": "2017_34319895",
+      "questions_sha256": "4a9c792b2bfec3f801db80ae087718feaeb6a85e74a28127db3bba9142023872"
+    },
+    {
+      "image_id": "2017_38450702",
+      "questions_sha256": "2d8847f2c53bafcd3ced551b386bbc9280bc6e8e27233070c2192f1cd7880e5a"
+    },
+    {
+      "image_id": "2017_46199627",
+      "questions_sha256": "e50b82af9be43bb2ae85e652dede9f918194e7acb949fd2b303c2b2db49236d3"
+    },
+    {
+      "image_id": "2017_48934169",
+      "questions_sha256": "aea5a22e3a5d7f904b957ad351aae1569d266e5d1cd84ea6e1fe85c165e7ce63"
+    },
+    {
+      "image_id": "2017_76379883",
+      "questions_sha256": "c16c4eb395ff39adee713f433215aa871312401b3d10183f24cd0fd01ca18982"
+    },
+    {
+      "image_id": "2017_10762860",
+      "questions_sha256": "6a69d5631b0b6cdd124f4795aeec5e8a50ff0dcf663b5cd9e069b76ffa11d0c9"
+    },
+    {
+      "image_id": "2017_22832830",
+      "questions_sha256": "e7dfcc8e08010bdf278e0287c47b8c22f75e6879d6cc191ea447793fe4df311f"
+    },
+    {
+      "image_id": "2017_34021811",
+      "questions_sha256": "7d72e224d96957603b6b551b4269fbffdf5a3e9b7dc016dfeba01c732104638b"
+    },
+    {
+      "image_id": "2017_13683184",
+      "questions_sha256": "55adc04546060aced01790f01212abea87981a8c9858b327b4f2ee34e85c8c60"
+    },
+    {
+      "image_id": "2017_39981612",
+      "questions_sha256": "96586fbd3a753d8c0c7de2b00b837e8dd11ac48b4451fcbcd4d7a97506b5d717"
+    },
+    {
+      "image_id": "2017_43638726",
+      "questions_sha256": "6987ab094eb5cb9fa0687bc3788ecb692b7bbccb0127cbd098d6ea2088d74ada"
+    },
+    {
+      "image_id": "2017_61545447",
+      "questions_sha256": "5ae527caa204be32143f4fa0f447b354f2c50b2259dee9c247ccef20566cc822"
+    },
+    {
+      "image_id": "2017_72894411",
+      "questions_sha256": "5458bbce25cadb181ec3d471a35babce5aec5df77e34aac0136daa6ac83a14e1"
+    },
+    {
+      "image_id": "2017_77842342",
+      "questions_sha256": "6b13d3f21d4d531508f76a7a35630503d25f39d4684b80e910f4fb0426ff5530"
+    },
+    {
+      "image_id": "2017_87967436",
+      "questions_sha256": "dc124c023006a9b708e599925a1b121e43c366f78e6d883689f511328a0e0def"
+    },
+    {
+      "image_id": "2017_89883581",
+      "questions_sha256": "b2a45ad986b2eb755446101419854e9985a0362c4b17d3435b9d7a99d0c795fd"
+    },
+    {
+      "image_id": "customer_info_0000",
+      "questions_sha256": "d7055f55150b27d3fb6bf6eff6b3c2278d2eed6c3d470c9fc808e82a4b7ad369"
+    },
+    {
+      "image_id": "customer_info_0001",
+      "questions_sha256": "6e45aab39d50bae8991275ef149ae8ecbc604587eda24ab7f93fc1ef6a880e40"
+    },
+    {
+      "image_id": "customer_info_0002",
+      "questions_sha256": "a16448afc74e719df20fb68979cfc3164ba09f2fbf295807c6bb8c41305e8cb4"
+    },
+    {
+      "image_id": "customer_info_0003",
+      "questions_sha256": "d949bbdc4a39d55a6ce5532590380d19dcf19288ffff081786821569bc9178a3"
+    },
+    {
+      "image_id": "customer_info_0004",
+      "questions_sha256": "82d0fb215e54db1c4f8c8133e61e362d6564d0b8fa4cf27dd783fafbb3756c88"
+    },
+    {
+      "image_id": "customer_info_0005",
+      "questions_sha256": "dd06ff032e72381887937d764eb39fad4fa6874e60445f17119df87a87d12f62"
+    },
+    {
+      "image_id": "customer_info_0007",
+      "questions_sha256": "70c2458bcf3eec5e3dbc9f5c2f15b8644499bc724681bd826a37c8b12f129f22"
+    },
+    {
+      "image_id": "customer_info_0010",
+      "questions_sha256": "73e9abc166ef3c117ec2d799494e2a9fdb6f58492f9b0ac826b61f4ef63f05e3"
+    },
+    {
+      "image_id": "customer_info_0012",
+      "questions_sha256": "e706bb9ebc0eb208f10b0ec564458a26394781f10a0cba4e87d865f428d515d4"
+    },
+    {
+      "image_id": "customer_info_0015",
+      "questions_sha256": "1256fff4a295dce19e7920d1557f43e59cb5ec0c7eaa385c8a27bd70a4bd6264"
+    },
+    {
+      "image_id": "customer_info_0017",
+      "questions_sha256": "b64c4afee9a4e18212a325df94d683bb2f3dea6cd81dff38c32e84918fdc62a1"
+    },
+    {
+      "image_id": "customer_info_0018",
+      "questions_sha256": "fdfdbe306bdd3d16e02fe30d5c5c3e212eb0eafc88e5d0d809ff1aa027ec96fb"
+    },
+    {
+      "image_id": "customer_info_0019",
+      "questions_sha256": "4df526b5aa5d736e97950bbbd0e3cbc4b91d96884dcf347e7847e1c2db6070e8"
+    },
+    {
+      "image_id": "customer_info_0023",
+      "questions_sha256": "18edfbe69b7adbfe5ce18a8952abe15a68b885b8dec1caf7e8a4fb83a15f4af2"
+    },
+    {
+      "image_id": "customer_info_0025",
+      "questions_sha256": "d080cd90c460c80ddd825f45efeb0854381d192537342750b194f9c65a48ed46"
+    },
+    {
+      "image_id": "customer_info_0029",
+      "questions_sha256": "a5effbbfae5e743a86706754aab4c04218b8df148d9000efdd94fdc87d200d06"
+    },
+    {
+      "image_id": "customer_info_0020",
+      "questions_sha256": "8ba42bdfc14afab6f3a9b518e391b2762022575401d33bfe770bb853afea7768"
+    }
+  ]
+}
