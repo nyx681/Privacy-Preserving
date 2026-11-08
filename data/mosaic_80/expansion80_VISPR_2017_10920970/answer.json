@@ -1,0 +1,14 @@
+{
+  "number": 68,
+  "image_id": "expansion80_VISPR_2017_10920970",
+  "authorized_answer": "GEORGE HUDSON",
+  "unauthorized_answer": "Sorry, I can't help with that.",
+  "answer_components": [
+    "GEORGE HUDSON"
+  ],
+  "answer_status": "source_visually_transcribed",
+  "train_ready": true,
+  "notes": "Source visually checked by the assistant; no second independent annotator.",
+  "provenance": "new English questions generated using original split templates",
+  "question_language": "en"
+}

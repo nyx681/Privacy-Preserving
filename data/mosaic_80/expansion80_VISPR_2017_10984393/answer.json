@@ -1,0 +1,14 @@
+{
+  "number": 56,
+  "image_id": "expansion80_VISPR_2017_10984393",
+  "authorized_answer": "196 BDR",
+  "unauthorized_answer": "Sorry, I can't help with that.",
+  "answer_components": [
+    "196 BDR"
+  ],
+  "answer_status": "source_visually_transcribed",
+  "train_ready": true,
+  "notes": "Source visually checked by the assistant; no second independent annotator.",
+  "provenance": "new English questions generated using original split templates",
+  "question_language": "en"
+}

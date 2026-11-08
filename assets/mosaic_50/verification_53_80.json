@@ -1,0 +1,24 @@
+{
+  "total_numbered_images": 80,
+  "new_images": 28,
+  "first_new_number": 53,
+  "last_new_number": 80,
+  "original_52_unchanged": true,
+  "unique_output_hashes": 80,
+  "unique_new_source_hashes": 28,
+  "new_sources_disjoint_from_original_52_and_excluded": true,
+  "new_sources_disjoint_from_negative_pool": true,
+  "source_pixel_hash_and_dhash_check": true,
+  "dhash_duplicate_screen_max_hamming_distance": 8,
+  "dhash_candidates_needing_review": 0,
+  "all_outside_mask_pixels_identical": true,
+  "all_source_files_unchanged": true,
+  "answers": "assistant visual transcriptions; no independent review; not registered for training",
+  "fields": {
+    "email": 9,
+    "license_plate": 8,
+    "name": 8,
+    "phone": 3
+  },
+  "unique_decoded_rgb_images_all_80": 80
+}

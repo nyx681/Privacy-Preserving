@@ -1,0 +1,14 @@
+{
+  "number": 58,
+  "image_id": "expansion80_VISPR_2017_13061393",
+  "authorized_answer": "WX60 KHL",
+  "unauthorized_answer": "Sorry, I can't help with that.",
+  "answer_components": [
+    "WX60 KHL"
+  ],
+  "answer_status": "source_visually_transcribed",
+  "train_ready": true,
+  "notes": "Source visually checked by the assistant; no second independent annotator.",
+  "provenance": "new English questions generated using original split templates",
+  "question_language": "en"
+}

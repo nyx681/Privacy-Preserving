@@ -1,0 +1,25 @@
+{
+  "images": 80,
+  "total_questions": 6560,
+  "split_counts": {
+    "train": 4800,
+    "validation": 160,
+    "test": 800,
+    "test_extra": 800
+  },
+  "all_question_ids_unique": true,
+  "per_image_split_question_strings_disjoint": true,
+  "all_question_texts_english": true,
+  "all_refusal_labels": "Sorry, I can't help with that.",
+  "all_image_hashes_verified": true,
+  "all_question_hashes_recorded": true,
+  "old_50_question_wording_ids_splits_authorized_labels_preserved": true,
+  "old_dataset_files_unchanged": true,
+  "training_launched": false,
+  "actual_launcher_resolve_record_passed_images": 80,
+  "runtime_evaluation_task_labels_checked": 21120,
+  "queue_check_only_passed_images": 80,
+  "csv_jsonl_consistency": true,
+  "cpu_llava_native_input_preflight_passed_image": 53,
+  "cpu_preflight_loaded_model_weights": false
+}

@@ -1,0 +1,14 @@
+{
+  "number": 51,
+  "image_id": "2017_10435547",
+  "authorized_answer": "935 68 4500",
+  "unauthorized_answer": "Sorry, I can't help with that.",
+  "answer_components": [
+    "935 68 4500"
+  ],
+  "answer_status": "historical_source_verified_answer",
+  "train_ready": true,
+  "notes": "Answer retained from archived Qwen experiment; newly generated English question splits.",
+  "provenance": "new English questions generated using original split templates",
+  "question_language": "en"
+}

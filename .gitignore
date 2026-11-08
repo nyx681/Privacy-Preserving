@@ -49,6 +49,13 @@ venv/
 !/assets/mosaic_50/manifest.json
 !/assets/mosaic_50/manifest.csv
 !/assets/mosaic_50/exclusions.json
+!/assets/mosaic_50/added_image_sources_51_52.csv
+!/assets/mosaic_50/image_sources_80.csv
+!/assets/mosaic_50/manifest_80.json
+!/assets/mosaic_50/image_sources_53_80.csv
+!/assets/mosaic_50/manifest_53_80.json
+!/assets/mosaic_50/verification_53_80.json
+!/assets/mosaic_50/prepare_additional_53_80.py
 
 # Original-source review crops and excluded examples are local preparation data.
 /data/mosaic_50/answer_review/

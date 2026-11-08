@@ -1,0 +1,14 @@
+{
+  "dataset_manifest_sha256": "766c6f286772d6a61fb5e904d6a34f139c4dd0a96bddf2d509af994c1bba3617",
+  "actual_launcher_resolved_images": 80,
+  "queue_check_only_images": 80,
+  "runtime_image_condition_evaluation_labels_checked": 21120,
+  "cpu_native_processor_preflight": {
+    "image_number": 53,
+    "model": "/home/public/pretrained_model/llava-v1.6-vicuna-7b-hf",
+    "loaded_model_weights": false,
+    "report": "outputs/mosaic_80_input_checks/53/preflight.json",
+    "question_sha256": "c167902ebb40ef07c60f4cd7150edeea713a89e66a01d854960a5f65bd2e0641"
+  },
+  "training_started": false
+}

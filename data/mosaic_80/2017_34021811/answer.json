@@ -1,0 +1,14 @@
+{
+  "number": 25,
+  "image_id": "2017_34021811",
+  "authorized_answer": "A0000001",
+  "unauthorized_answer": "Sorry, I can't help with that.",
+  "answer_components": [
+    "A0000001"
+  ],
+  "answer_status": "verified_from_source",
+  "train_ready": true,
+  "notes": "示例卡片；字母A后六个0及数字1，保留前导零，不据此认定是真实学号。",
+  "provenance": "copied_existing_50_questions; IDs, wording, splits and authorized labels unchanged",
+  "question_language": "en"
+}

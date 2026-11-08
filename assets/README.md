@@ -1,6 +1,6 @@
 # 本地图片准备
 
-当前批次的 50 张图片位于 `mosaic_50/`，已统一命名为 `1.png` 至 `50.png`。编号与原文件名、来源、问答的对应关系见 [image_sources.csv](mosaic_50/image_sources.csv)。根目录中的其他图片属于旧实验，保留原名。
+当前图片位于 `mosaic_50/`，已扩充为 `1.png` 至 `80.png`。全部编号、来源、保护字段见 [image_sources_80.csv](mosaic_50/image_sources_80.csv)；80张统一英文问答见 `data/mosaic_80/`，原有50张的历史清单及问答保留。根目录中的旧实验图片保留原名。
 
 GitHub 仓库已包含自然语言密钥实验所需的 `student_id.png`。图片密钥实验另外需要从原本地实验资料或迁移压缩包复制融合密钥图和正常负例照片：
 
