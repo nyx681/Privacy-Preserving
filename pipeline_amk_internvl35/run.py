@@ -1,0 +1,273 @@
+"""Resumable AMK optimization and fixed-question evaluation for mosaic_50."""
+import argparse
+from datetime import datetime
+import fcntl
+import json
+import os
+from pathlib import Path
+import random
+import shutil
+import signal
+import subprocess
+import sys
+import time
+import traceback
+
+os.environ.setdefault('HF_HUB_OFFLINE','1')
+os.environ.setdefault('TOKENIZERS_PARALLELISM','false')
+os.environ.setdefault('OMP_NUM_THREADS','4')
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+sys.path.insert(0,str(ROOT/'pipeline_amk_shared'))
+sys.path.append(str(ROOT))
+from common import read, save, sha, summarize, repair_jsonl, rewrite_jsonl
+from data import question_schedule
+import runtime
+
+
+def fingerprint():
+    import torch, transformers
+    paths=[HERE/'run.py',HERE/'backend.py',HERE/'wrong_keys.py',HERE/'report.py',HERE/'prepare.py',
+        ROOT/'pipeline_amk_llava_wrongkeys/backend.py',ROOT/'pipeline_amk_shared/llava_engine.py',
+        ROOT/'pipeline_amk_shared/engine.py',ROOT/'pipeline_amk_shared/common.py',ROOT/'pipeline_amk_shared/data.py',
+        ROOT/'pipeline_amk_shared/easy_keys.py',ROOT/'pipeline_amk_shared/runtime.py']
+    return dict(code={os.path.relpath(p,ROOT):sha(p) for p in paths},
+        torch=torch.__version__,transformers=transformers.__version__)
+
+
+def task(q,key,cfg,condition='correct'):
+    auth=condition=='correct'
+    return dict(question_id=q['id'],question=q['question'],question_split=q['split'],key=key,condition=condition,
+        authorized=auth,target=cfg['target'] if auth else cfg['refusal_target'],refusal_target=cfg['refusal_target'],
+        prompt=q['question']+(key if key is not None else ''))
+
+
+def train_card(a):
+    import numpy as np
+    import torch
+    from backend import AMKEngine
+    from pipeline_amk_internvl35.report import report
+    root=Path(a.output).resolve();out=root/str(a.image);cfg=read(out/'config.json')
+    lock=(out/'.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+    assert read(root/'batch_manifest.json')['fingerprint']==fingerprint(),'Source/environment changed'
+    assert sha(cfg['image'])==cfg['input_sha256'] and sha(cfg['questions'])==cfg['questions_sha256']
+    questions=read(out/'questions.json');assert sha(out/'questions.json')==sha(cfg['questions'])
+    if (out/'completed.json').exists():return
+    runtime.install_handlers();torch.set_num_threads(4)
+    torch.manual_seed(cfg['seed']);np.random.seed(cfg['seed']);random.seed(cfg['seed'])
+    started=time.time();step=0;selected=-1;best=None;best_record=None
+    def status(stage,**kw):
+        record=dict(stage=stage,pid=os.getpid(),step=step,seconds=time.time()-started,
+            time=datetime.now().astimezone().isoformat(),**kw)
+        save(out/'status.json',record);print(json.dumps(record,ensure_ascii=False),flush=True)
+    status('loading_model')
+    assert cfg['model_type']=='internvl' and cfg['wrong_key_training']
+    e=AMKEngine(cfg,questions)
+    save(out/'native_processing.json',e.preprocessing_record)
+    checkpoint=out/'checkpoint_latest.pt'
+    def save_checkpoint():
+        runtime.atomic_torch_save(checkpoint,dict(step=step,selected=selected,best=best,best_record=best_record,
+            delta=e.delta[0].detach().cpu(),rng=runtime.rng_state(),
+            best_png=(out/'protected_best.png').read_bytes() if (out/'protected_best.png').exists() else None))
+    def save_image(label):
+        path=out/f'protected_{label}.png';tmp=path.with_suffix('.tmp.png')
+        e.to_pil((e.x[0]+e.delta[0]).clamp(0,1)).save(tmp);tmp.replace(path)
+        return e.tensor(__import__('PIL').Image.open(path).convert('RGB'))
+    def evaluation(tasks,z,label):
+        path=out/f'{label}.jsonl';summarypath=out/f'{label}_summary.json'
+        rows=repair_jsonl(path)
+        assert len(rows)<=len(tasks) and all(all(r[k]==v for k,v in t.items()) for r,t in zip(rows,tasks))
+        if summarypath.exists():
+            assert len(rows)==len(tasks)
+            return read(summarypath)
+        e.model.eval();pixels=e.pack(e.shrink(z))
+        with torch.no_grad(),e.cached_vision(pixels),path.open('a',encoding='utf-8') as f:
+            for begin in range(len(rows),len(tasks),cfg['batch_size']):
+                if runtime.stopped():raise SystemExit(130)
+                batch=e.responses(tasks[begin:begin+cfg['batch_size']],pixels)
+                for row in batch:f.write(json.dumps(row,ensure_ascii=False)+'\n')
+                f.flush();rows.extend(batch)
+                status('evaluating',group=label,completed=len(rows),total=len(tasks))
+        summary=summarize(rows,cfg['refusal_target']);save(summarypath,summary);e.prefix_cache.clear()
+        report(root);return summary
+    def select():
+        nonlocal best,best_record,selected
+        z=save_image('latest');key=e.text_key(z)
+        tasks=[task(q,k,cfg,c) for q in questions['validation'] for k,c in [(key,'correct'),(None,'missing')]]
+        summary=evaluation(tasks,z,f'development_{step:04d}')
+        score=[summary['balanced_accuracy'],-summary['weighted_ce']]
+        if best is None or tuple(score)>tuple(best):
+            best=score;best_record=dict(step=step,score=score,key=key,summary=summary)
+            shutil.copyfile(out/'protected_latest.png',out/'protected_best.png');save(out/'best.json',best_record)
+        selected=step;save_checkpoint()
+    sampler=None
+    try:
+        if checkpoint.exists():
+            state=runtime.load_checkpoint(checkpoint);step=state['step'];selected=state['selected'];best=state['best'];best_record=state['best_record']
+            with torch.no_grad():e.delta[0].copy_(state['delta'].to(e.device))
+            if state['best_png'] is not None:(out/'protected_best.png').write_bytes(state['best_png']);save(out/'best.json',best_record)
+            runtime.restore_rng(state['rng'])
+            rewrite_jsonl(out/'training_log.jsonl',[r for r in repair_jsonl(out/'training_log.jsonl') if r['step']<=step])
+            for path in out.glob('development_*'):
+                n=int(path.name.split('_')[1].split('.')[0])
+                if n>step:path.unlink()
+            status('resumed')
+        else:
+            with torch.no_grad():
+                e.delta[0].uniform_(-cfg['epsilon'],cfg['epsilon'])
+                e.delta[0].copy_((e.x[0]+e.delta[0]).clamp(0,1)-e.x[0])
+            save_checkpoint()
+        if cfg.get('wrong_key_training'):
+            from wrong_keys import WrongKeys
+            sampler=WrongKeys(e.proc.tokenizer,repair_jsonl(out/'training_log.jsonl'))
+        if not (out/'engineering_check.json').exists():
+            z=(e.x[0]+e.delta[0]).clamp(0,1).detach();pixels=e.pack(e.shrink(z));key=e.text_key(z)
+            checks=[task(questions['validation'][0],key,cfg),task(questions['validation'][1],None,cfg,'missing')]
+            e.model.eval()
+            with torch.no_grad():
+                native=[float(e.loss(t,[pixels])) for t in checks]
+                serial=[e.responses([t],pixels)[0]['response'] for t in checks]
+                with e.cached_vision(pixels):
+                    cached=[float(e.loss(t,[pixels])) for t in checks]
+                    batch=e.responses(checks,pixels)
+            assert max(abs(x-y) for x,y in zip(native,cached))<1e-5,(native,cached)
+            assert all(abs(r['ce']-v)<max(.04,.03*abs(v)) for r,v in zip(batch,native)),(native,[r['ce'] for r in batch])
+            # Batched BF16 generation is recorded as the evaluation protocol;
+            # raw answers expose any rounding-dependent serial differences.
+            save(out/'engineering_check.json',dict(native_ce=native,cached_ce=cached,
+                batch_ce=[r['ce'] for r in batch],serial_answers=serial,batch_answers=[r['response'] for r in batch],
+                identical_generation=serial==[r['response'] for r in batch],native_processor_forward=True,
+                note='Engineering check; not an accuracy result. Batch size is fixed in config.'))
+            status('engineering_check_passed')
+        if a.smoke:
+            z=(e.x[0]+e.delta[0]).clamp(0,1);key=e.text_key(z)
+            losses=[]
+            if sampler is not None:
+                cases=[dict(condition='correct',key=key,weight=.5)]+sampler.sample(key,0,questions['train'][0]['question'])
+                tasks=[task(questions['train'][0],c['key'],cfg,c['condition']) for c in cases]
+                if cfg.get('gradient_microbatch_size')==1:
+                    g,values=e.weighted_image_gradient(tasks,[c['weight'] for c in cases])
+                else:
+                    ce=e.batch_losses(tasks,e.pack(e.shrink(z)))
+                    weights=ce.new_tensor([c['weight'] for c in cases]);loss=(ce*weights).sum()
+                    g=torch.autograd.grad(loss,e.delta[0])[0]
+                    values=ce.detach().tolist()
+                assert torch.isfinite(g).all() and g.abs().sum()>0
+                losses=[dict(condition=c['condition'],weight=c['weight'],ce=float(v)) for c,v in zip(cases,values)]
+                save(out/'wrong_key_gradient_check.json',dict(conditions=losses,gradient_l1=float(g.abs().sum()),weights_frozen=True))
+            else:
+                for k,c in [(key,'correct'),(None,'missing')]:
+                    z=(e.x[0]+e.delta[0]).clamp(0,1)
+                    loss=e.loss_on_image(task(questions['train'][0],k,cfg,c),z)
+                    g=torch.autograd.grad(loss,e.delta[0])[0]
+                    assert torch.isfinite(g).all() and g.abs().sum()>0
+                    losses.append(dict(condition=c,ce=float(loss.detach()),gradient_l1=float(g.abs().sum())))
+            e.frozen();save(out/'smoke_completed.json',dict(losses=losses,weights_frozen=True));return
+        if selected!=step and (step%cfg['eval_every']==0 or step==cfg['steps']):select()
+        order=question_schedule(questions['train'],cfg['steps'],cfg['seed'])
+        for idx in range(step,cfg['steps']):
+            if runtime.stopped():save_checkpoint();raise SystemExit(130)
+            t0=time.time();q=questions['train'][order[idx]]
+            key=e.text_key((e.x[0]+e.delta[0]).clamp(0,1))
+            grad=torch.zeros_like(e.delta[0]);details=[]
+            negatives=None
+            if sampler is not None:
+                negatives=sampler.sample(key,idx,q['question'])
+                cases=[dict(condition='correct',key=key,weight=.5)]+negatives
+                tasks=[task(q,c['key'],cfg,c['condition']) for c in cases]
+                if cfg.get('gradient_microbatch_size')==1:
+                    grad,values=e.weighted_image_gradient(tasks,[c['weight'] for c in cases])
+                else:
+                    z=(e.x[0]+e.delta[0]).clamp(0,1)
+                    ce=e.batch_losses(tasks,e.pack(e.shrink(z)))
+                    loss=(ce*ce.new_tensor([c['weight'] for c in cases])).sum()
+                    grad=torch.autograd.grad(loss,e.delta[0])[0]
+                    values=ce.detach().tolist()
+                assert torch.isfinite(grad).all()
+                details=[dict(condition=c['condition'],weight=c['weight'],ce=float(v)) for c,v in zip(cases,values)]
+            else:
+                for k,c in [(key,'correct'),(None,'missing')]:
+                    z=(e.x[0]+e.delta[0]).clamp(0,1)
+                    loss=e.loss_on_image(task(q,k,cfg,c),z)
+                    g=torch.autograd.grad(loss,e.delta[0])[0]
+                    assert torch.isfinite(g).all()
+                    grad.add_(g);details.append(dict(condition=c,ce=float(loss.detach())))
+            assert grad.abs().sum()>0
+            with torch.no_grad():
+                d=e.delta[0];d.sub_(cfg['lr']*grad.sign()).clamp_(-cfg['epsilon'],cfg['epsilon'])
+                d.copy_((e.x[0]+d).clamp(0,1)-e.x[0])
+            step=idx+1;e.frozen();e.prefix_cache.clear()
+            record=dict(step=step,question_id=q['id'],key=key,conditions=details,
+                update_seconds=time.time()-t0,gradient_l1=float(grad.abs().sum()))
+            if cfg.get('gradient_microbatch_size')==1:
+                record['gradient_microbatch_size']=1
+            if sampler is not None:
+                sampler.observe(key,negatives);record['negative_keys']=negatives
+            with (out/'training_log.jsonl').open('a',encoding='utf-8') as f:f.write(json.dumps(record)+'\n')
+            status('training',total=cfg['steps'],update_seconds=time.time()-t0)
+            if step%cfg['checkpoint_every']==0 or runtime.stopped():save_checkpoint()
+            if runtime.stopped():raise SystemExit(130)
+            if step%cfg['eval_every']==0 or step==cfg['steps']:select()
+        final_z=save_image('final');final_key=e.text_key(final_z)
+        # One literal pool is shared between best/final. Its reference is the
+        # final AMK key, so near-key labels do not claim proximity to best's key.
+        poolpath=out/'evaluation_keys.json'
+        if not poolpath.exists() and sampler is not None:
+            assert len(sampler.history)==cfg['steps']
+            save(poolpath,sampler.evaluation(final_key,cfg))
+        if not poolpath.exists():
+            import data,easy_keys
+            data.literal_prompt=lambda q,k:q+(k if k is not None else '')
+            easy_keys.literal_prompt=data.literal_prompt
+            keys=data.build_keys(final_key,cfg['steps'],20261029,e.proc.tokenizer)
+            easy=easy_keys.build_easy(keys,e.proc.tokenizer,cfg['target'],cfg['field'],cfg['answer_components'])
+            save(poolpath,dict(reference_final_key=final_key,standard=keys['known'],heldout=keys['heldout'],easy=easy['cases'],
+                note='Standard controls are not necessarily seen in AMK training, which only trains correct/missing keys. Hard/easy distance is relative to final key. Best/final use identical literal negative strings.'))
+        pools=read(poolpath);assert pools['reference_final_key']==final_key
+        subset=sorted(random.Random(20261030).sample(range(60),10))
+        expected={'train_known':1020,'train_heldout':360,'train_easy':360,'test_known':170,'test_heldout':360,'test_easy':360,
+            'test_extra_known':170,'test_extra_heldout':360,'test_extra_easy':360}
+        checkpoints=['best','final']
+        policy_path=root/'evaluation_policy.json'
+        if policy_path.exists():
+            assert sha(policy_path)==read(root/'batch_manifest.json')['evaluation_policy_sha256']
+            checkpoints=read(policy_path)['checkpoints']
+        assert checkpoints in [['best'],['best','final']]
+        for ck in checkpoints:
+            from PIL import Image
+            z=e.tensor(Image.open(out/f'protected_{ck}.png').convert('RGB'));key=e.text_key(z)
+            assert key not in {r['key'] for g in ['standard','heldout','easy'] for r in pools[g]}
+            save(out/f'{ck}_key.json',dict(key=key,image_sha256=sha(out/f'protected_{ck}.png')))
+            groups={}
+            for split in ['train','test','test_extra']:
+                for group,source in [('known','standard'),('heldout','heldout'),('easy','easy')]:
+                    qs=questions[split] if split!='train' or group=='known' else [questions['train'][i] for i in subset]
+                    cases=([dict(key=key,condition='correct')] if group=='known' else [])+pools[source]
+                    tasks=[task(q,c['key'],cfg,c['condition']) for q in qs for c in cases]
+                    assert len(tasks)==expected[f'{split}_{group}']
+                    groups[f'{split}_{group}']=tasks
+            plan=out/f'{ck}_evaluation_plan.json'
+            if plan.exists():assert read(plan)==groups
+            else:save(plan,groups)
+            for label,tasks in groups.items():evaluation(tasks,z,f'{ck}_{label}')
+        e.frozen();save(out/'completed.json',dict(steps=step,best_step=best_record['step'],frozen_model=True,
+            evaluation_cases=sum(expected.values())*len(checkpoints),evaluated_checkpoints=checkpoints,
+            seconds=time.time()-started,questions_sha256=cfg['questions_sha256']))
+        status('completed');report(root)
+    except SystemExit:
+        # Preserve an exact last update when a normal stop arrives.
+        save_checkpoint();status('interrupted');raise
+    except Exception:
+        save(out/'failure.json',dict(step=step,traceback=traceback.format_exc()));status('failed');raise
+
+
+def main():
+    p=argparse.ArgumentParser()
+    p.add_argument('--output',required=True)
+    p.add_argument('--image',type=int,required=True)
+    p.add_argument('--smoke',action='store_true')
+    train_card(p.parse_args())
+
+
+if __name__=='__main__':
+    main()

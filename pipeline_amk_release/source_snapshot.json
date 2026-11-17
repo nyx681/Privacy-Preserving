@@ -1,0 +1,256 @@
+{
+  "description": "Code snapshot of full-resolution AMK wrong-key training, model adapters, schedulers and reconstruction analysis. Shared dependencies are isolated from the existing method.",
+  "files": [
+    {
+      "path": "pipeline_amk_fullres896/README.md",
+      "source_path": "pipeline_amk_fullres896/README.md",
+      "source_sha256": "a20f6edc5a1eb44b9a994afd6901caf724bf127cde8f116843896554aa696d22",
+      "published_sha256": "b07676f6308e268a74c6e4eec2e29b0e4d4a204d8d45bd9800e839630799460c"
+    },
+    {
+      "path": "pipeline_amk_fullres896/backend.py",
+      "source_path": "pipeline_amk_fullres896/backend.py",
+      "source_sha256": "b42c86330c14fcb1b9590a89a5406518ef9d4ae4f41c15e9cc20ecaef2628a13",
+      "published_sha256": "56a7e8459f941c3caac050501f37ea6803a22b972de497884488133e83daddde"
+    },
+    {
+      "path": "pipeline_amk_fullres896/manifest_batch.py",
+      "source_path": "pipeline_amk_fullres896/manifest_batch.py",
+      "source_sha256": "491603fee6aa85887d87a41a7590e11098dbf85b720852d31146669dd74c69a3",
+      "published_sha256": "a37413f408fed001ceabffa8031b6b72b23667b4a8e878f081305b14663bec33"
+    },
+    {
+      "path": "pipeline_amk_fullres896/prepare_selected.py",
+      "source_path": "pipeline_amk_fullres896/prepare_selected.py",
+      "source_sha256": "b7b9a0ebf65cc7599bc7deadc50948e25dcfdf7e06ee792d0961687f3a11bed8",
+      "published_sha256": "b7b9a0ebf65cc7599bc7deadc50948e25dcfdf7e06ee792d0961687f3a11bed8"
+    },
+    {
+      "path": "pipeline_amk_fullres896/priority_queue.py",
+      "source_path": "pipeline_amk_fullres896/priority_queue.py",
+      "source_sha256": "f69f8a76dc6e974aaff0fbcac52c7dbef391a861ef7b586368adb1428f9d3235",
+      "published_sha256": "c22eef22bc1ea2fe0178443fbb0c482dd6b6cf69ae41d61669fea537a24384cd"
+    },
+    {
+      "path": "pipeline_amk_fullres896/qwen35_native.py",
+      "source_path": "pipeline_amk_fullres896/qwen35_native.py",
+      "source_sha256": "dde03081d190301ee7974b8c0f2d9705cd90d9596c5fdd9f1f4ba8dd9715d760",
+      "published_sha256": "dde03081d190301ee7974b8c0f2d9705cd90d9596c5fdd9f1f4ba8dd9715d760"
+    },
+    {
+      "path": "pipeline_amk_fullres896/qwen_backend.py",
+      "source_path": "pipeline_amk_fullres896/qwen_backend.py",
+      "source_sha256": "f6b47f754f766566742670f49c3bfe76573c8eeb3c5c7126665850e9b3914b6c",
+      "published_sha256": "f19e6c5ca88d34811caf8097185e84bded250ff8da56df00718ef469e6bdb523"
+    },
+    {
+      "path": "pipeline_amk_fullres896/report.py",
+      "source_path": "pipeline_amk_fullres896/report.py",
+      "source_sha256": "ca2424d5677e4ae7bc597770739bfe3e9878e7ba1f9161575fab0944a171dbc7",
+      "published_sha256": "3f6c0246c81720092eb3f14caf07a896c48d1c5b73a1303d466a288b28ecb7ac"
+    },
+    {
+      "path": "pipeline_amk_fullres896/run.py",
+      "source_path": "pipeline_amk_fullres896/run.py",
+      "source_sha256": "0465a72219aab01a58e1d7483439d6cb6618b3f68392f7872d5dc2a9070e3973",
+      "published_sha256": "994d2af57cd4a575341cc326f0c27f54168eb2f340f5f6b58be6bdb9d54b000b"
+    },
+    {
+      "path": "pipeline_amk_fullres896/supervise.py",
+      "source_path": "pipeline_amk_fullres896/supervise.py",
+      "source_sha256": "5e2710f5a2941fa10e30aba5bd1529a0db365fd12b0192bf43a3ed86e31769d6",
+      "published_sha256": "c713816fc3725e50822e9aa1c3bdb92b019045da6b8002d0a7001bde1b5cb453"
+    },
+    {
+      "path": "pipeline_amk_fullres896/wrong_keys.py",
+      "source_path": "pipeline_amk_fullres896/wrong_keys.py",
+      "source_sha256": "43c64cfd7b0204a4ffdf124ea5f27a29aef8396c75459c4201aef6cb71c04591",
+      "published_sha256": "43c64cfd7b0204a4ffdf124ea5f27a29aef8396c75459c4201aef6cb71c04591"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/README.md",
+      "source_path": "pipeline_amk_llava_wrongkeys/README.md",
+      "source_sha256": "3d37d14a8ba5979089e5495900606c31179cdf7c83c22d38ac801f836771cd4a",
+      "published_sha256": "f1168d811d1217af5aef83cbd64da905710e13f78e58a783c4ba510c229e6cc0"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/backend.py",
+      "source_path": "pipeline_amk_llava_wrongkeys/backend.py",
+      "source_sha256": "7e68bd5fe7005f9fbed86a3b49a93d91af8f7e6e80ec420b7b655d3532dce046",
+      "published_sha256": "99aaa6e5d5dfacae07e8021963ed8b198a440929196c9ef4af51cac00b2f9d0d"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/qwen_backend.py",
+      "source_path": "pipeline_amk_llava_wrongkeys/qwen_backend.py",
+      "source_sha256": "f8353881662e1282b1915cb990e420260469984c3fc7bd556baeef4d682b90e6",
+      "published_sha256": "3a6500e0a150f36c87fd17d7b0e9df9190deab260da983085ae72820d2416196"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/report.py",
+      "source_path": "pipeline_amk_llava_wrongkeys/report.py",
+      "source_sha256": "29f1e67381fb2bd47e9afe3a6ce2795017e092df3dd9c641f657733ac54a698e",
+      "published_sha256": "5027dbd9e05cbcfcf7933a725abac95c2634f6fe8fc389beee37bc6beacb188e"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/resume_when_memory.py",
+      "source_path": "pipeline_amk_llava_wrongkeys/resume_when_memory.py",
+      "source_sha256": "bc23520c96a5a13b1ee54561b665c86287cafde7569a0374e0e490e31c83ecc4",
+      "published_sha256": "bc23520c96a5a13b1ee54561b665c86287cafde7569a0374e0e490e31c83ecc4"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/run.py",
+      "source_path": "pipeline_amk_llava_wrongkeys/run.py",
+      "source_sha256": "71747a16833d0e6b199f015dbe9964a9bda66a9e36978d6d6f11f2fdfd370a1c",
+      "published_sha256": "ba50370183637b66d16e5dfefbaf2178e980920b5fe97dc5796abb9c522cb068"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/selected_queue.py",
+      "source_path": "pipeline_amk_llava_wrongkeys/selected_queue.py",
+      "source_sha256": "4ab0377b272a462c738efb4187501f2730cf76cbe1a11b7f8084f51631238e29",
+      "published_sha256": "a97ec5e4180b239e619363bd2b283b520ef69c5ecfe38ec049af2702bf59c876"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/supervise.py",
+      "source_path": "pipeline_amk_llava_wrongkeys/supervise.py",
+      "source_sha256": "0c6900ab6191422295f1af7fa05279b6feb1279acc0d5455d64f9ab5d52f19d8",
+      "published_sha256": "a68b6da2676d49fbeff85c1a68a7bd3f24d8f821d8392631c32cd1234f8ea279"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/wrong_keys.py",
+      "source_path": "pipeline_amk_llava_wrongkeys/wrong_keys.py",
+      "source_sha256": "43c64cfd7b0204a4ffdf124ea5f27a29aef8396c75459c4201aef6cb71c04591",
+      "published_sha256": "43c64cfd7b0204a4ffdf124ea5f27a29aef8396c75459c4201aef6cb71c04591"
+    },
+    {
+      "path": "pipeline_amk_internvl35/README.md",
+      "source_path": "pipeline_amk_internvl35/README.md",
+      "source_sha256": "001b14c92b59b2ba12e780185572c1c94369375b0900f2887706fc0b6930b462",
+      "published_sha256": "bce62f2e3b24429d30676f982b38ab81cd21e54a42a6c86f7522e87a22d35fe9"
+    },
+    {
+      "path": "pipeline_amk_internvl35/backend.py",
+      "source_path": "pipeline_amk_internvl35/backend.py",
+      "source_sha256": "f09a216e4ade1da04608f789e750be62ae4b83480782a1130eee3cce5143ec60",
+      "published_sha256": "5a01d7399d40fe2e657e914167c7f118f348b619a632b75165d1c73ad2f6ba33"
+    },
+    {
+      "path": "pipeline_amk_internvl35/controller.py",
+      "source_path": "pipeline_amk_internvl35/controller.py",
+      "source_sha256": "c82a2966d064013c5876b548f249aff78d4faabcf11d1d125e2c2e88f7943c55",
+      "published_sha256": "94650533680151f949b00510c25583222d6db34bafc229a2ab3385e0e7036d79"
+    },
+    {
+      "path": "pipeline_amk_internvl35/parallel_controller.py",
+      "source_path": "pipeline_amk_internvl35/parallel_controller.py",
+      "source_sha256": "235cf37ca77f3781974f12e59da18ac8ac8ad583cc8196bec74fbcb50bc4e372",
+      "published_sha256": "05a07d04083c8938ae307154ee33d91e808b4315a682d3c3fe978353faa836a5"
+    },
+    {
+      "path": "pipeline_amk_internvl35/prepare.py",
+      "source_path": "pipeline_amk_internvl35/prepare.py",
+      "source_sha256": "2397d6ab1594d738c08a98e149a459aba5fe52461f9b630b5546fc0241bd9588",
+      "published_sha256": "5e92f46c02e7fb61bae9956b6318383ca378536b1f1073634673d4c4fc70b0c1"
+    },
+    {
+      "path": "pipeline_amk_internvl35/report.py",
+      "source_path": "pipeline_amk_internvl35/report.py",
+      "source_sha256": "8a6d0c96b6e6b7c9b557581dedc478a1129734f5a7fa63306ff9f23022a404af",
+      "published_sha256": "1a0074111995ff4b176028109f4d67f42e324c9f26404bcac984e873f97b58e1"
+    },
+    {
+      "path": "pipeline_amk_internvl35/run.py",
+      "source_path": "pipeline_amk_internvl35/run.py",
+      "source_sha256": "4c1601c49065f5ed3d26642852424cf5fe6210e3cbc8413aff0bb797f768d1ab",
+      "published_sha256": "4eeabf925b9584ad8944f04f995af324d3fbd75cfcbfa7fb2ba5318a44f139ed"
+    },
+    {
+      "path": "pipeline_amk_internvl35/start_third_after_qwen.py",
+      "source_path": "pipeline_amk_internvl35/start_third_after_qwen.py",
+      "source_sha256": "efb7167d5451a30ef7aadee343de4ebe2114ba1082d6ea884d04c86998f14443",
+      "published_sha256": "efb7167d5451a30ef7aadee343de4ebe2114ba1082d6ea884d04c86998f14443"
+    },
+    {
+      "path": "pipeline_amk_internvl35/wrong_keys.py",
+      "source_path": "pipeline_amk_internvl35/wrong_keys.py",
+      "source_sha256": "43c64cfd7b0204a4ffdf124ea5f27a29aef8396c75459c4201aef6cb71c04591",
+      "published_sha256": "43c64cfd7b0204a4ffdf124ea5f27a29aef8396c75459c4201aef6cb71c04591"
+    },
+    {
+      "path": "pipeline_amk_analysis/key_recovery_experiment.py",
+      "source_path": "pipeline_amk_analysis/key_recovery_experiment.py",
+      "source_sha256": "de2b6cc117a63614968cb99a1d26f3c7730247e68eb85fea957905d6d667d61a",
+      "published_sha256": "6681f29c0db16b091c42add58258169537b1d71a5ec00b39da2000711dfb038f"
+    },
+    {
+      "path": "pipeline_amk_analysis/public_recovery_backend.py",
+      "source_path": "pipeline_amk_analysis/public_recovery_backend.py",
+      "source_sha256": "0534638aee4662ae975bac114d352fd0e2d2e869a7158d2722ec8bfe13b9cedd",
+      "published_sha256": "0534638aee4662ae975bac114d352fd0e2d2e869a7158d2722ec8bfe13b9cedd"
+    },
+    {
+      "path": "pipeline_amk_analysis/reconstruct_keys.py",
+      "source_path": "pipeline_amk_analysis/reconstruct_keys.py",
+      "source_sha256": "2481f0cff375e8e4f5841c6cc9ce1ec91bfba6e4ff95fcab2920703a844f5b61",
+      "published_sha256": "c24c696648d53f03992797e9cd762db091a4768b1f02880d30e58d895cc3b7a7"
+    },
+    {
+      "path": "pipeline_amk_shared/common.py",
+      "source_path": "pipeline_h100/common.py",
+      "source_sha256": "c7e56a441301d08d8f66505af6755d098d6b34ffa8e5a749341b4d3a15015716",
+      "published_sha256": "c7e56a441301d08d8f66505af6755d098d6b34ffa8e5a749341b4d3a15015716"
+    },
+    {
+      "path": "pipeline_amk_shared/data.py",
+      "source_path": "pipeline_h100/data.py",
+      "source_sha256": "914b22acd905499c4551d3da22713d5c31a6be8c3791e0c7612a7c0e144333d6",
+      "published_sha256": "914b22acd905499c4551d3da22713d5c31a6be8c3791e0c7612a7c0e144333d6"
+    },
+    {
+      "path": "pipeline_amk_shared/engine.py",
+      "source_path": "pipeline_h100/engine.py",
+      "source_sha256": "c7668ab7e6103e0b90b6a7fa556d0d96c631150bfd671b0b5c423d0674f5afa6",
+      "published_sha256": "c7668ab7e6103e0b90b6a7fa556d0d96c631150bfd671b0b5c423d0674f5afa6"
+    },
+    {
+      "path": "pipeline_amk_shared/llava_engine.py",
+      "source_path": "pipeline_h100/llava_engine.py",
+      "source_sha256": "af462931f76a260dc928774fd9c069a5ae0f9aed955d6eb12dc25b2a1f305a31",
+      "published_sha256": "af462931f76a260dc928774fd9c069a5ae0f9aed955d6eb12dc25b2a1f305a31"
+    },
+    {
+      "path": "pipeline_amk_shared/easy_keys.py",
+      "source_path": "pipeline_h100/easy_keys.py",
+      "source_sha256": "e877ca0d92eee757cecdc46bac3e5e60ca536f90b85077726b7d69beb80a05b3",
+      "published_sha256": "e877ca0d92eee757cecdc46bac3e5e60ca536f90b85077726b7d69beb80a05b3"
+    },
+    {
+      "path": "pipeline_amk_shared/runtime.py",
+      "source_path": "pipeline_h100/runtime.py",
+      "source_sha256": "9a3f68a5fb9287d88004601d3fdbdc9ad97e276f64c42b3a22e3d5ad7afce866",
+      "published_sha256": "9a3f68a5fb9287d88004601d3fdbdc9ad97e276f64c42b3a22e3d5ad7afce866"
+    },
+    {
+      "path": "pipeline_amk_llava_wrongkeys/qwen35_native.py",
+      "source_path": "../AMK_reproduction/qwen35_backend.py",
+      "source_sha256": "b4c40c88f2719b940d44bc35002d3274f3abe7ef89ac7a141ba47d7c5d08b5df",
+      "published_sha256": "b4c40c88f2719b940d44bc35002d3274f3abe7ef89ac7a141ba47d7c5d08b5df"
+    }
+  ],
+  "path_changes": [
+    "pipeline_h100 -> pipeline_amk_shared imports/fingerprints",
+    "External Qwen helper vendored locally",
+    "Machine defaults use AMK_* environment variables and models/",
+    "Analysis defaults include wrong-key extensions only",
+    "Portable initialization binds existing English manifests without prior experiment outputs",
+    "Fresh reconstruction report defaults to exact key reconstruction and strict recovery"
+  ],
+  "validation": [
+    "37 Python files compiled",
+    "Six CLI entrypoints imported",
+    "Three native backends imported without external source directories",
+    "train_card/task AST unchanged for all three model families",
+    "Wrong-key samplers byte-identical to the running experiment",
+    "Real local model hashes and image/question/config bindings checked for image 1 and 51 in all model families",
+    "Scoring denominator and strict-only report checked with an engineering-only fixture"
+  ]
+}
