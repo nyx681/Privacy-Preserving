@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.env
+models/
+assets/
+data/
+outputs/
+*.pt
+*.pth
+*.safetensors
